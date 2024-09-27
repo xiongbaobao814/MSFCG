@@ -24,7 +24,7 @@ class Exp_Main(Exp_Basic):
             'Autoformer': Autoformer,
             'DLinear': DLinear,
             'MSGNet': MSGNet,
-            'FCMSGNN': MSFCGNN
+            'FCMSGNN': FCMSFCGNN
         }
         model = model_dict[self.args.model].Model(self.args).float()
 
