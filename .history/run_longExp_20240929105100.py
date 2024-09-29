@@ -30,8 +30,8 @@ parser.add_argument('--features', type=str, default='M',
                         ' S:univariate predict univariate, MS:multivariate predict univariate')
 parser.add_argument('--target', type=str, default='OT', help='target feature in S or MS task')
 parser.add_argument('--freq', type=str, default='h', help='freq for time features encoding,'
-                    'options:[s:secondly, t:minutely, h:hourly, d:daily, b:business days, w:weekly, m:monthly],'
-                    'you can also use more detailed freq like 15min or 3h')
+                        'options:[s:secondly, t:minutely, h:hourly, d:daily, b:business days, w:weekly, m:monthly],'
+                        'you can also use more detailed freq like 15min or 3h')
 parser.add_argument('--checkpoints', type=str, default='./checkpoints/', help='location of model checkpoints')
 
 # forecasting task
@@ -73,10 +73,10 @@ parser.add_argument('--n_class', type=int, default=6, help='')
 # DLinear
 parser.add_argument('--individual', action='store_true', default=False, help='DLinear: a linear layer for each variate(channel) individually')
 # Formers
-parser.add_argument('--embed_type', type=int, default=0, help='0: default'
+parser.add_argument('--embed_type', type=int, default=0, help='0: default '
                                                             '1: value embedding + temporal embedding + positional embedding '
-                                                            '2: value embedding + temporal embedding'
-                                                            '3: value embedding + positional embedding'
+                                                            '2: value embedding + temporal embedding '
+                                                            '3: value embedding + positional embedding '
                                                             '4: value embedding')
 parser.add_argument('--enc_in', type=int, default=7, help='encoder input size')
 parser.add_argument('--dec_in', type=int, default=7, help='decoder input size')

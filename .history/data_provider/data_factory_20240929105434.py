@@ -15,7 +15,7 @@ data_dict = {
 # flag = 'train' or 'val' or 'test'
 def data_provider(args, flag):
     Data = data_dict[args.data]
-    # time features encoding, options: [timeF, fixed, learned]
+    #time features encoding, options: [timeF, fixed, learned]
     timeenc = 0 if args.embed != 'timeF' else 1
 
     if flag == 'test':
@@ -23,12 +23,14 @@ def data_provider(args, flag):
         drop_last = True
         batch_size = args.batch_size
         freq = args.freq
+
     elif flag == 'pred':
         shuffle_flag = False
         drop_last = False
         batch_size = 1
         freq = args.freq
         Data = Dataset_Pred
+
     else:
         shuffle_flag = True
         drop_last = True
@@ -62,5 +64,13 @@ def data_provider(args, flag):
                             num_workers=args.num_workers,
                             drop_last=drop_last
     )
+    
+    # batch_x_data = []
+    # for i, (batch_x, batch_y, batch_x_mark, batch_y_mark) in enumerate(data_set):
+    #     batch_x_data.append(batch_x)
+    #     print(batch_x.shape, batch_y.shape, batch_x_mark.shape, batch_y_mark.shape)
+    # print(i)
+    # print(batch_x_data.shape)
+    
     
     return data_set, data_loader

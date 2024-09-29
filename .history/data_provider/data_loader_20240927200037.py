@@ -42,6 +42,7 @@ class Dataset_Flight(Dataset):
     def __read_data__(self):
         self.scaler = StandardScaler()
         df_raw = pd.read_csv(os.path.join(self.root_path, self.data_path))
+
         '''
         df_raw.columns: ['date', ...(other features), target feature]
         '''

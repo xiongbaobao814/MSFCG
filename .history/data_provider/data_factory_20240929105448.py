@@ -63,4 +63,12 @@ def data_provider(args, flag):
                             drop_last=drop_last
     )
     
+    # batch_x_data = []
+    # for i, (batch_x, batch_y, batch_x_mark, batch_y_mark) in enumerate(data_set):
+    #     batch_x_data.append(batch_x)
+    #     print(batch_x.shape, batch_y.shape, batch_x_mark.shape, batch_y_mark.shape)
+    # print(i)
+    # print(batch_x_data.shape)
+    
+    
     return data_set, data_loader
