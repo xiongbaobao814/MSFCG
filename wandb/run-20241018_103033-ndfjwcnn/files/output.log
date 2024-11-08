@@ -1,0 +1,63 @@
+Use GPU: cuda:0
+>>>>>>>start training : test_MSFCGNN_ETTm1_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 34369
+val 11425
+test 11425
+epoch: 0
+	iters: 100, epoch: 1 | loss: 0.5156574
+	speed: 0.0838s/iter; left time: 261.8601s
+	iters: 200, epoch: 1 | loss: 0.3375755
+	speed: 0.0743s/iter; left time: 224.5301s
+	iters: 300, epoch: 1 | loss: 0.4111842
+	speed: 0.0740s/iter; left time: 216.1999s
+	iters: 400, epoch: 1 | loss: 0.4299686
+	speed: 0.0741s/iter; left time: 209.1103s
+	iters: 500, epoch: 1 | loss: 0.3786922
+	speed: 0.0743s/iter; left time: 202.4261s
+	iters: 600, epoch: 1 | loss: 0.4426681
+	speed: 0.0747s/iter; left time: 195.9846s
+	iters: 700, epoch: 1 | loss: 0.3548930
+	speed: 0.0750s/iter; left time: 189.2482s
+	iters: 800, epoch: 1 | loss: 0.3518637
+	speed: 0.0749s/iter; left time: 181.5312s
+	iters: 900, epoch: 1 | loss: 0.2905448
+	speed: 0.0752s/iter; left time: 174.6706s
+	iters: 1000, epoch: 1 | loss: 0.2978976
+	speed: 0.0742s/iter; left time: 164.8852s
+Epoch: 1 cost time: 80.92163729667664
+Traceback (most recent call last):
+  File "/home/shilin/code/MSFCG-main/MSFCG/run_longExp.py", line 155, in <module>
+    exp.train(setting)
+  File "/home/shilin/code/MSFCG-main/MSFCG/exp/exp_main.py", line 192, in train
+    test_loss = self.vali(test_data, test_loader, criterion)
+  File "/home/shilin/code/MSFCG-main/MSFCG/exp/exp_main.py", line 87, in vali
+    outputs = self.model(batch_x, batch_x_mark, dec_inp, batch_y_mark)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/models/MSFCGNN.py", line 238, in forward
+    layer_out = self.model[i](x_input)              # [32, 96, 7]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/models/MSFCGNN.py", line 169, in forward
+    output = self.gconv[i](out)         # [32, 96, 7]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/models/MSFCGNN.py", line 122, in forward
+    MPNN_output1 = self.MPNN1(A_input_)                          # [32, 1, 7, 16]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/layers/MSFCGBlock.py", line 217, in forward
+    input_con = WindowConv_Graph(input, self.moving_window, self.stride)
+  File "/home/shilin/code/MSFCG-main/MSFCG/layers/MSFCGBlock.py", line 123, in WindowConv_Graph
+    y_ = F.unfold(x_, (num_nodes, moving_window), stride=stride)            # [32, 224, 1]      [32, 448, 1]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/functional.py", line 4853, in unfold
+    return torch._C._nn.im2col(input, _pair(kernel_size), _pair(dilation), _pair(padding), _pair(stride))
+RuntimeError: Given input with spatial size (7, 7), kernel_size=(7, 2), dilation=(1, 1), padding=(0, 0), calculated shape of the array of sliding blocks as (1, 0), but its components must be at least one.

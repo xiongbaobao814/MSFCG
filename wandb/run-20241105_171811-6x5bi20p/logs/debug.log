@@ -1,0 +1,29 @@
+2024-11-05 17:18:11,268 INFO    MainThread:3127734 [wandb_setup.py:_flush():76] Current SDK version is 0.17.7
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_setup.py:_flush():76] Configure stats pid to 3127734
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_setup.py:_flush():76] Loading settings from /home/shilin/.config/wandb/settings
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_setup.py:_flush():76] Loading settings from /home/shilin/code/MSFCG-main/MSFCG/wandb/settings
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'run_longExp.py', 'program_abspath': '/home/shilin/code/MSFCG-main/MSFCG/run_longExp.py', 'program': '/home/shilin/code/MSFCG-main/MSFCG/run_longExp.py'}
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_init.py:_log_setup():524] Logging user logs to /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241105_171811-6x5bi20p/logs/debug.log
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_init.py:_log_setup():525] Logging internal logs to /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241105_171811-6x5bi20p/logs/debug-internal.log
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_init.py:init():607] calling init triggers
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {}
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_init.py:init():657] starting backend
+2024-11-05 17:18:11,269 INFO    MainThread:3127734 [wandb_init.py:init():661] setting up manager
+2024-11-05 17:18:11,271 INFO    MainThread:3127734 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-11-05 17:18:11,274 INFO    MainThread:3127734 [wandb_init.py:init():669] backend started and connected
+2024-11-05 17:18:11,278 INFO    MainThread:3127734 [wandb_init.py:init():764] updated telemetry
+2024-11-05 17:18:11,285 INFO    MainThread:3127734 [wandb_init.py:init():797] communicating run to backend with 90.0 second timeout
+2024-11-05 17:18:12,036 INFO    MainThread:3127734 [wandb_run.py:_on_init():2479] communicating current version
+2024-11-05 17:18:12,241 INFO    MainThread:3127734 [wandb_run.py:_on_init():2488] got version response upgrade_message: "wandb version 0.18.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-11-05 17:18:12,241 INFO    MainThread:3127734 [wandb_init.py:init():848] starting run threads in backend
+2024-11-05 17:18:13,065 INFO    MainThread:3127734 [wandb_run.py:_console_start():2457] atexit reg
+2024-11-05 17:18:13,066 INFO    MainThread:3127734 [wandb_run.py:_redirect():2303] redirect: wrap_raw
+2024-11-05 17:18:13,066 INFO    MainThread:3127734 [wandb_run.py:_redirect():2368] Wrapping output streams.
+2024-11-05 17:18:13,066 INFO    MainThread:3127734 [wandb_run.py:_redirect():2393] Redirects installed.
+2024-11-05 17:18:13,071 INFO    MainThread:3127734 [wandb_init.py:init():891] run started, returning control to user process
+2024-11-05 17:27:10,758 WARNING MsgRouterThr:3127734 [router.py:message_loop():77] message_loop has been closed
