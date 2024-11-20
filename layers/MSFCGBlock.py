@@ -230,6 +230,7 @@ class GraphConvpoolMPNN_block(nn.Module):
         self.moving_window = moving_window  # 2, 2
         self.stride = stride                # 1, 2
         
+        self.mapping1 = nn.Linear(1, 2)
         # 构造图邻接矩阵
         self.graph_construction = Dot_Graph_Construction_weights(input_dim)
         self.BN = nn.BatchNorm1d(input_dim)
@@ -243,7 +244,8 @@ class GraphConvpoolMPNN_block(nn.Module):
         ## input size:[bs, scale_num, num_nodes, input_dim]        
         bs, scale_num, num_nodes, input_dim = input.size()
         if scale_num == 1:
-            input = torch.reshape(input, [bs, 2, num_nodes, input_dim])
+            input = self.mapping1(input)
+            # input = torch.reshape(input, [bs, 2, num_nodes, input_dim])
         
         # 窗口卷积图处理
         input_con = WindowConv_Graph(input, self.moving_window, self.stride)

@@ -1,0 +1,197 @@
+2024-11-20 18:45:52,800 INFO    StreamThr :1178934 [internal.py:wandb_internal():85] W&B internal server running at pid: 1178934, started at: 2024-11-20 18:45:52.800029
+2024-11-20 18:45:52,801 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: status
+2024-11-20 18:45:52,803 INFO    WriterThread:1178934 [datastore.py:open_for_write():87] open: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/run-swvj131r.wandb
+2024-11-20 18:45:52,804 DEBUG   SenderThread:1178934 [sender.py:send():391] send: header
+2024-11-20 18:45:52,806 DEBUG   SenderThread:1178934 [sender.py:send():391] send: run
+2024-11-20 18:45:53,531 INFO    SenderThread:1178934 [dir_watcher.py:__init__():211] watching files in: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files
+2024-11-20 18:45:53,531 INFO    SenderThread:1178934 [sender.py:_start_run_threads():1200] run started: swvj131r with start time 1732099552.800161
+2024-11-20 18:45:53,542 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: check_version
+2024-11-20 18:45:53,542 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: check_version
+2024-11-20 18:45:54,046 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: run_start
+2024-11-20 18:45:54,088 DEBUG   HandlerThread:1178934 [system_info.py:__init__():26] System info init
+2024-11-20 18:45:54,088 DEBUG   HandlerThread:1178934 [system_info.py:__init__():41] System info init done
+2024-11-20 18:45:54,088 INFO    HandlerThread:1178934 [system_monitor.py:start():194] Starting system monitor
+2024-11-20 18:45:54,089 INFO    SystemMonitor:1178934 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-11-20 18:45:54,089 INFO    HandlerThread:1178934 [system_monitor.py:probe():214] Collecting system info
+2024-11-20 18:45:54,089 INFO    SystemMonitor:1178934 [interfaces.py:start():188] Started cpu monitoring
+2024-11-20 18:45:54,090 INFO    SystemMonitor:1178934 [interfaces.py:start():188] Started disk monitoring
+2024-11-20 18:45:54,090 INFO    SystemMonitor:1178934 [interfaces.py:start():188] Started gpu monitoring
+2024-11-20 18:45:54,091 INFO    SystemMonitor:1178934 [interfaces.py:start():188] Started memory monitoring
+2024-11-20 18:45:54,092 INFO    SystemMonitor:1178934 [interfaces.py:start():188] Started network monitoring
+2024-11-20 18:45:54,228 DEBUG   HandlerThread:1178934 [system_info.py:probe():152] Probing system
+2024-11-20 18:45:54,231 DEBUG   HandlerThread:1178934 [system_info.py:_probe_git():137] Probing git
+2024-11-20 18:45:54,240 DEBUG   HandlerThread:1178934 [system_info.py:_probe_git():145] Probing git done
+2024-11-20 18:45:54,240 DEBUG   HandlerThread:1178934 [system_info.py:probe():200] Probing system done
+2024-11-20 18:45:54,240 DEBUG   HandlerThread:1178934 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-124-generic-x86_64-with-glibc2.31', 'python': '3.10.14', 'heartbeatAt': '2024-11-20T10:45:54.228981', 'startedAt': '2024-11-20T10:45:52.792554', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/shilin/code/MSFCG-main/MSFCG/run_longExp.py', 'codePathLocal': 'run_longExp.py', 'codePath': 'run_longExp.py', 'git': {'remote': 'git@github.com:xiongbaobao814/MSFCG.git', 'commit': '2c9a19064fea9766cee063a982ef2394df53e94a'}, 'email': '13121972900@163.com', 'root': '/home/shilin/code/MSFCG-main/MSFCG', 'host': 'iscashpc', 'username': 'shilin', 'executable': '/home/shilin/miniconda3/envs/python310/bin/python', 'cpu_count': 128, 'cpu_count_logical': 256, 'cpu_freq': {'current': 1.5476523437499998, 'min': 1500.0, 'max': 2000.0}, 'cpu_freq_per_core': [{'current': 1.699, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.7, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 2.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 3.098, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 3.099, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 3.099, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 2.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1.7, 'min': 1500.0, 'max': 2000.0}, {'current': 3.099, 'min': 1500.0, 'max': 2000.0}, {'current': 2.0, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.7, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 3.099, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 3.099, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.7, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 3.099, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}, {'current': 1.5, 'min': 1500.0, 'max': 2000.0}], 'disk': {'/': {'total': 49.9755859375, 'used': 49.34819793701172}}, 'gpu': 'NVIDIA A100-PCIE-40GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA A100-PCIE-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-PCIE-40GB', 'memory_total': 42949672960}], 'memory': {'total': 251.67735290527344}}
+2024-11-20 18:45:54,241 INFO    HandlerThread:1178934 [system_monitor.py:probe():224] Finished collecting system info
+2024-11-20 18:45:54,241 INFO    HandlerThread:1178934 [system_monitor.py:probe():227] Publishing system info
+2024-11-20 18:45:54,241 DEBUG   HandlerThread:1178934 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-11-20 18:45:54,533 INFO    Thread-12 :1178934 [dir_watcher.py:_on_file_created():271] file/dir created: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/conda-environment.yaml
+2024-11-20 18:45:55,908 DEBUG   HandlerThread:1178934 [system_info.py:_save_conda():224] Saving conda packages done
+2024-11-20 18:45:55,911 INFO    HandlerThread:1178934 [system_monitor.py:probe():229] Finished publishing system info
+2024-11-20 18:45:55,913 DEBUG   SenderThread:1178934 [sender.py:send():391] send: files
+2024-11-20 18:45:55,914 INFO    SenderThread:1178934 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-11-20 18:45:56,000 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: python_packages
+2024-11-20 18:45:56,001 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: python_packages
+2024-11-20 18:45:56,001 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: stop_status
+2024-11-20 18:45:56,002 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: stop_status
+2024-11-20 18:45:56,004 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-11-20 18:45:56,435 DEBUG   SenderThread:1178934 [sender.py:send():391] send: telemetry
+2024-11-20 18:45:56,532 INFO    Thread-12 :1178934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/conda-environment.yaml
+2024-11-20 18:45:56,533 INFO    Thread-12 :1178934 [dir_watcher.py:_on_file_created():271] file/dir created: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/output.log
+2024-11-20 18:45:56,533 INFO    Thread-12 :1178934 [dir_watcher.py:_on_file_created():271] file/dir created: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/wandb-metadata.json
+2024-11-20 18:45:56,533 INFO    Thread-12 :1178934 [dir_watcher.py:_on_file_created():271] file/dir created: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/requirements.txt
+2024-11-20 18:45:57,004 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-11-20 18:45:57,363 DEBUG   SenderThread:1178934 [sender.py:send():391] send: exit
+2024-11-20 18:45:57,364 INFO    SenderThread:1178934 [sender.py:send_exit():598] handling exit code: 1
+2024-11-20 18:45:57,364 INFO    SenderThread:1178934 [sender.py:send_exit():600] handling runtime: 3
+2024-11-20 18:45:57,366 INFO    SenderThread:1178934 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-20 18:45:57,366 INFO    SenderThread:1178934 [sender.py:send_exit():606] send defer
+2024-11-20 18:45:57,366 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:45:57,366 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 0
+2024-11-20 18:45:57,367 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:45:57,367 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-11-20 18:45:57,367 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 1
+2024-11-20 18:45:57,367 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:45:57,367 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 1
+2024-11-20 18:45:57,367 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:45:57,367 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-11-20 18:45:57,367 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 2
+2024-11-20 18:45:57,368 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:45:57,368 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 2
+2024-11-20 18:45:57,368 INFO    HandlerThread:1178934 [system_monitor.py:finish():203] Stopping system monitor
+2024-11-20 18:45:57,368 INFO    HandlerThread:1178934 [interfaces.py:finish():200] Joined cpu monitor
+2024-11-20 18:45:57,369 INFO    HandlerThread:1178934 [interfaces.py:finish():200] Joined disk monitor
+2024-11-20 18:45:57,369 DEBUG   SystemMonitor:1178934 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-11-20 18:45:57,369 DEBUG   SystemMonitor:1178934 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-11-20 18:45:57,369 DEBUG   SystemMonitor:1178934 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-11-20 18:45:57,400 INFO    wandb-upload_0:1178934 [upload_job.py:push():130] Uploaded file /tmp/tmpd164qjd5wandb/79ejtu90-wandb-metadata.json
+2024-11-20 18:45:57,533 INFO    Thread-12 :1178934 [dir_watcher.py:_on_file_created():271] file/dir created: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/wandb-summary.json
+2024-11-20 18:45:58,136 INFO    HandlerThread:1178934 [interfaces.py:finish():200] Joined gpu monitor
+2024-11-20 18:45:58,137 INFO    HandlerThread:1178934 [interfaces.py:finish():200] Joined memory monitor
+2024-11-20 18:45:58,137 INFO    HandlerThread:1178934 [interfaces.py:finish():200] Joined network monitor
+2024-11-20 18:45:58,137 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:45:58,137 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-11-20 18:45:58,138 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 3
+2024-11-20 18:45:58,138 DEBUG   SenderThread:1178934 [sender.py:send():391] send: stats
+2024-11-20 18:45:58,138 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:45:58,139 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 3
+2024-11-20 18:45:58,139 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: status_report
+2024-11-20 18:45:58,139 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:45:58,139 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-11-20 18:45:58,139 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 4
+2024-11-20 18:45:58,140 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:45:58,140 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 4
+2024-11-20 18:45:58,140 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:45:58,140 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-11-20 18:45:58,140 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 5
+2024-11-20 18:45:58,140 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:45:58,140 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 5
+2024-11-20 18:45:58,140 DEBUG   SenderThread:1178934 [sender.py:send():391] send: summary
+2024-11-20 18:45:58,153 INFO    SenderThread:1178934 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-20 18:45:58,154 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:45:58,154 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-11-20 18:45:58,154 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 6
+2024-11-20 18:45:58,154 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:45:58,154 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 6
+2024-11-20 18:45:58,154 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:45:58,154 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-11-20 18:45:58,160 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: status_report
+2024-11-20 18:45:58,364 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-20 18:45:58,471 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 7
+2024-11-20 18:45:58,472 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: poll_exit
+2024-11-20 18:45:58,472 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:45:58,472 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 7
+2024-11-20 18:45:58,473 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:45:58,473 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-11-20 18:45:58,533 INFO    Thread-12 :1178934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/output.log
+2024-11-20 18:45:58,533 INFO    Thread-12 :1178934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/config.yaml
+2024-11-20 18:45:58,533 INFO    Thread-12 :1178934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/wandb-summary.json
+2024-11-20 18:45:59,364 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-20 18:45:59,533 INFO    Thread-12 :1178934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/output.log
+2024-11-20 18:46:01,330 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 8
+2024-11-20 18:46:01,331 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: poll_exit
+2024-11-20 18:46:01,331 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:46:01,331 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 8
+2024-11-20 18:46:01,331 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:46:01,332 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-11-20 18:46:01,332 INFO    SenderThread:1178934 [job_builder.py:build():443] Attempting to build job artifact
+2024-11-20 18:46:01,332 INFO    SenderThread:1178934 [job_builder.py:_get_source_type():572] is repo sourced job
+2024-11-20 18:46:01,351 INFO    SenderThread:1178934 [job_builder.py:build():548] adding wandb-job metadata file
+2024-11-20 18:46:01,365 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-20 18:46:01,369 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 9
+2024-11-20 18:46:01,370 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: poll_exit
+2024-11-20 18:46:01,370 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:46:01,370 DEBUG   SenderThread:1178934 [sender.py:send():391] send: artifact
+2024-11-20 18:46:01,370 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 9
+2024-11-20 18:46:01,534 INFO    Thread-12 :1178934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/output.log
+2024-11-20 18:46:02,366 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-20 18:46:02,758 INFO    SenderThread:1178934 [sender.py:send_artifact():1549] sent artifact job-git_github.com_xiongbaobao814_MSFCG.git_run_longExp.py - {'id': 'QXJ0aWZhY3Q6MTM0MjU2NzM1NQ==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3ODcxMTY3OA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTM0MjU2NzM1NQ==', 'versionIndex': 8}}}
+2024-11-20 18:46:02,758 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:46:02,759 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-11-20 18:46:02,759 INFO    SenderThread:1178934 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-11-20 18:46:03,535 INFO    SenderThread:1178934 [dir_watcher.py:finish():388] scan: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files
+2024-11-20 18:46:03,535 INFO    SenderThread:1178934 [dir_watcher.py:finish():402] scan save: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/config.yaml config.yaml
+2024-11-20 18:46:03,536 INFO    SenderThread:1178934 [dir_watcher.py:finish():402] scan save: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/conda-environment.yaml conda-environment.yaml
+2024-11-20 18:46:03,538 INFO    SenderThread:1178934 [dir_watcher.py:finish():402] scan save: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/wandb-metadata.json wandb-metadata.json
+2024-11-20 18:46:03,538 INFO    SenderThread:1178934 [dir_watcher.py:finish():402] scan save: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/requirements.txt requirements.txt
+2024-11-20 18:46:03,539 INFO    SenderThread:1178934 [dir_watcher.py:finish():402] scan save: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/output.log output.log
+2024-11-20 18:46:03,543 INFO    SenderThread:1178934 [dir_watcher.py:finish():402] scan save: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/wandb-summary.json wandb-summary.json
+2024-11-20 18:46:03,545 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 10
+2024-11-20 18:46:03,545 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: poll_exit
+2024-11-20 18:46:03,545 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:46:03,547 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 10
+2024-11-20 18:46:03,547 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: status_report
+2024-11-20 18:46:03,547 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:46:03,547 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-11-20 18:46:03,548 INFO    SenderThread:1178934 [file_pusher.py:finish():169] shutting down file pusher
+2024-11-20 18:46:04,139 INFO    wandb-upload_0:1178934 [upload_job.py:push():130] Uploaded file /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/config.yaml
+2024-11-20 18:46:04,367 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-20 18:46:04,368 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: poll_exit
+2024-11-20 18:46:04,529 INFO    wandb-upload_1:1178934 [upload_job.py:push():130] Uploaded file /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/conda-environment.yaml
+2024-11-20 18:46:04,636 INFO    wandb-upload_3:1178934 [upload_job.py:push():130] Uploaded file /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/output.log
+2024-11-20 18:46:04,646 INFO    wandb-upload_2:1178934 [upload_job.py:push():130] Uploaded file /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/requirements.txt
+2024-11-20 18:46:04,649 INFO    wandb-upload_4:1178934 [upload_job.py:push():130] Uploaded file /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/files/wandb-summary.json
+2024-11-20 18:46:04,850 INFO    Thread-11 (_thread_body):1178934 [sender.py:transition_state():626] send defer: 11
+2024-11-20 18:46:04,850 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:46:04,850 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 11
+2024-11-20 18:46:04,851 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:46:04,851 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-11-20 18:46:04,851 INFO    SenderThread:1178934 [file_pusher.py:join():175] waiting for file pusher
+2024-11-20 18:46:04,851 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 12
+2024-11-20 18:46:04,852 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:46:04,852 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 12
+2024-11-20 18:46:04,852 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:46:04,852 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-11-20 18:46:04,852 INFO    SenderThread:1178934 [file_stream.py:finish():601] file stream finish called
+2024-11-20 18:46:05,123 INFO    SenderThread:1178934 [file_stream.py:finish():605] file stream finish is done
+2024-11-20 18:46:05,123 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 13
+2024-11-20 18:46:05,123 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:46:05,124 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 13
+2024-11-20 18:46:05,124 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:46:05,124 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-11-20 18:46:05,124 INFO    SenderThread:1178934 [sender.py:transition_state():626] send defer: 14
+2024-11-20 18:46:05,125 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: defer
+2024-11-20 18:46:05,125 DEBUG   SenderThread:1178934 [sender.py:send():391] send: final
+2024-11-20 18:46:05,125 INFO    HandlerThread:1178934 [handler.py:handle_request_defer():184] handle defer: 14
+2024-11-20 18:46:05,125 DEBUG   SenderThread:1178934 [sender.py:send():391] send: footer
+2024-11-20 18:46:05,125 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: defer
+2024-11-20 18:46:05,126 INFO    SenderThread:1178934 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-11-20 18:46:05,126 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-20 18:46:05,127 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: poll_exit
+2024-11-20 18:46:05,127 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: server_info
+2024-11-20 18:46:05,128 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: server_info
+2024-11-20 18:46:05,128 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-20 18:46:05,130 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: get_summary
+2024-11-20 18:46:05,131 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: sampled_history
+2024-11-20 18:46:05,132 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-11-20 18:46:05,375 DEBUG   SenderThread:1178934 [sender.py:send_request():418] send_request: poll_exit
+2024-11-20 18:46:05,375 INFO    MainThread:1178934 [wandb_run.py:_footer_history_summary_info():4076] rendering history
+2024-11-20 18:46:05,375 INFO    MainThread:1178934 [wandb_run.py:_footer_history_summary_info():4108] rendering summary
+2024-11-20 18:46:05,375 INFO    MainThread:1178934 [wandb_run.py:_footer_sync_info():4035] logging synced files
+2024-11-20 18:46:05,376 DEBUG   HandlerThread:1178934 [handler.py:handle_request():158] handle_request: shutdown
+2024-11-20 18:46:05,376 INFO    HandlerThread:1178934 [handler.py:finish():880] shutting down handler
+2024-11-20 18:46:06,131 INFO    WriterThread:1178934 [datastore.py:close():296] close: /home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241120_184552-swvj131r/run-swvj131r.wandb
+2024-11-20 18:46:06,375 INFO    SenderThread:1178934 [sender.py:finish():1631] shutting down sender
+2024-11-20 18:46:06,375 INFO    SenderThread:1178934 [file_pusher.py:finish():169] shutting down file pusher
+2024-11-20 18:46:06,375 INFO    SenderThread:1178934 [file_pusher.py:join():175] waiting for file pusher
