@@ -268,6 +268,7 @@ class GraphConvpoolMPNN_block(nn.Module):
             GCNPooling_output, ind = torch.max(GCNPooling_output, 1)
         else:
             print('input choice for pooling cannot be read')
+        
         return GCNPooling_output
 
 
