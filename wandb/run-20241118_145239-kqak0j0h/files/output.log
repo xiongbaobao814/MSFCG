@@ -1,0 +1,17 @@
+Use GPU: cuda:0
+>>>>>>>start training : test_MSFCGNN_ETTm1_ftM_sl96_ll48_pl96_dm512_nh8_el3_dl1_df2048_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 34369
+val 11425
+test 11425
+epoch: 0
+	iters: 100, epoch: 1 | loss: 0.4748140
+	speed: 0.1159s/iter; left time: 361.8186s
+	iters: 200, epoch: 1 | loss: 0.5151401
+	speed: 0.1075s/iter; left time: 325.1017s
+	iters: 300, epoch: 1 | loss: 0.4041089
+	speed: 0.1059s/iter; left time: 309.4130s
+	iters: 400, epoch: 1 | loss: 0.4191088
+	speed: 0.1054s/iter; left time: 297.4579s
+	iters: 500, epoch: 1 | loss: 0.3807768
+	speed: 0.1063s/iter; left time: 289.3670s
+	iters: 600, epoch: 1 | loss: 0.3032602

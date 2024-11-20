@@ -1,0 +1,5 @@
+Use GPU: cuda:0
+>>>>>>>start training : test_MSFCGNN_ETTm1_ftM_sl96_ll48_pl96_dm512_nh8_el3_dl1_df2048_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 34369
+val 11425
+test 11425

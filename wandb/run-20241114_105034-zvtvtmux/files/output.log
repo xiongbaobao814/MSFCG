@@ -1,0 +1,38 @@
+Use GPU: cuda:0
+>>>>>>>start training : test_MSFCGNN_ETTm1_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 34369
+val 11425
+test 11425
+epoch:  0
+Traceback (most recent call last):
+  File "/home/shilin/code/MSFCG-main/MSFCG/run_longExp.py", line 158, in <module>
+    exp.train(setting)
+  File "/home/shilin/code/MSFCG-main/MSFCG/exp/exp_main.py", line 163, in train
+    outputs = self.model(batch_x, batch_x_mark, dec_inp, batch_y_mark)  # [32, 96, 7]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/models/MSFCGNN.py", line 230, in forward
+    x_input = self.enc_embedding(x_enc, x_mark_enc)     # [32, 96, 512]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/layers/Embed.py", line 114, in forward
+    x = self.value_embedding(x) + self.temporal_embedding(x_mark) + self.position_embedding(x)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/layers/Embed.py", line 36, in forward
+    x = self.tokenConv(x.permute(0, 2, 1)).transpose(1, 2)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 308, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 301, in _conv_forward
+    return F.conv1d(F.pad(input, self._reversed_padding_repeated_twice, mode=self.padding_mode),
+RuntimeError: Given groups=1, weight of size [512, 7, 3], expected input[32, 512, 98] to have 7 channels, but got 512 channels instead
