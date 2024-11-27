@@ -1,0 +1,16 @@
+{"time":"2024-11-26T11:10:35.772574094+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-26T11:10:35.772612235+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241126_111035-erpsi15j/logs/debug-core.log"}
+{"time":"2024-11-26T11:10:35.987675091+08:00","level":"INFO","msg":"created new stream","id":"erpsi15j"}
+{"time":"2024-11-26T11:10:35.987731392+08:00","level":"INFO","msg":"stream: started","id":"erpsi15j"}
+{"time":"2024-11-26T11:10:35.987739443+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"erpsi15j"}
+{"time":"2024-11-26T11:10:35.987743273+08:00","level":"INFO","msg":"handler: started","stream_id":"erpsi15j"}
+{"time":"2024-11-26T11:10:35.987846876+08:00","level":"INFO","msg":"sender: started","stream_id":"erpsi15j"}
+{"time":"2024-11-26T11:10:36.466430103+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-26T11:10:38.17027539+08:00","level":"INFO","msg":"stream: closing","id":"erpsi15j"}
+{"time":"2024-11-26T11:10:38.170324721+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-26T11:10:38.171180267+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-26T11:10:41.455866069+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-26T11:10:41.860136514+08:00","level":"INFO","msg":"handler: closed","stream_id":"erpsi15j"}
+{"time":"2024-11-26T11:10:41.860213066+08:00","level":"INFO","msg":"sender: closed","stream_id":"erpsi15j"}
+{"time":"2024-11-26T11:10:41.860199756+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"erpsi15j"}
+{"time":"2024-11-26T11:10:41.860409732+08:00","level":"INFO","msg":"stream: closed","id":"erpsi15j"}

@@ -1,0 +1,12 @@
+{"time":"2024-11-27T11:19:06.39367724+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-27T11:19:06.393699119+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241127_111906-mv5vmmru/logs/debug-core.log"}
+{"time":"2024-11-27T11:19:06.509098231+08:00","level":"INFO","msg":"created new stream","id":"mv5vmmru"}
+{"time":"2024-11-27T11:19:06.509143731+08:00","level":"INFO","msg":"stream: started","id":"mv5vmmru"}
+{"time":"2024-11-27T11:19:06.50919393+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"mv5vmmru"}
+{"time":"2024-11-27T11:19:06.50919962+08:00","level":"INFO","msg":"handler: started","stream_id":"mv5vmmru"}
+{"time":"2024-11-27T11:19:06.50923689+08:00","level":"INFO","msg":"sender: started","stream_id":"mv5vmmru"}
+{"time":"2024-11-27T11:19:07.130060787+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-27T11:34:07.391234034+08:00","level":"INFO","msg":"stream: closing","id":"mv5vmmru"}
+{"time":"2024-11-27T11:34:07.391315005+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-27T11:34:07.392189589+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-27T11:34:09.032291293+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

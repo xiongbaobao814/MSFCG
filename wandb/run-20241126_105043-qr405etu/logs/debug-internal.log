@@ -1,0 +1,16 @@
+{"time":"2024-11-26T10:50:43.517838456+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-26T10:50:43.517881379+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241126_105043-qr405etu/logs/debug-core.log"}
+{"time":"2024-11-26T10:50:44.034694338+08:00","level":"INFO","msg":"created new stream","id":"qr405etu"}
+{"time":"2024-11-26T10:50:44.034753763+08:00","level":"INFO","msg":"stream: started","id":"qr405etu"}
+{"time":"2024-11-26T10:50:44.034792746+08:00","level":"INFO","msg":"handler: started","stream_id":"qr405etu"}
+{"time":"2024-11-26T10:50:44.034807057+08:00","level":"INFO","msg":"sender: started","stream_id":"qr405etu"}
+{"time":"2024-11-26T10:50:44.034789196+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"qr405etu"}
+{"time":"2024-11-26T10:50:44.49904378+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-26T10:54:20.749278808+08:00","level":"INFO","msg":"stream: closing","id":"qr405etu"}
+{"time":"2024-11-26T10:54:20.749384575+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-26T10:54:20.750352156+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-26T10:54:21.995871565+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-26T10:54:22.41124653+08:00","level":"INFO","msg":"handler: closed","stream_id":"qr405etu"}
+{"time":"2024-11-26T10:54:22.411339276+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qr405etu"}
+{"time":"2024-11-26T10:54:22.411347917+08:00","level":"INFO","msg":"sender: closed","stream_id":"qr405etu"}
+{"time":"2024-11-26T10:54:22.411594082+08:00","level":"INFO","msg":"stream: closed","id":"qr405etu"}

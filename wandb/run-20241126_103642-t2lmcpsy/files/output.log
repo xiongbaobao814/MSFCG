@@ -1,0 +1,48 @@
+Use GPU: cuda:0
+>>>>>>>start training : test_MSFCGNN_ETTh1_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8449
+val 2785
+test 2785
+epoch: 0
+	iters: 100, epoch: 1 | loss: 0.3618458
+	speed: 0.1207s/iter; left time: 83.6731s
+	iters: 200, epoch: 1 | loss: 0.3289295
+	speed: 0.1125s/iter; left time: 66.7208s
+Epoch: 1 cost time: 30.33766007423401
+Epoch: 1, Steps: 264 | Train Loss: 0.4116171 Vali Loss: 0.7777719 Test Loss: 0.4385803
+Validation loss decreased (inf --> 0.777772).  Saving model ...
+Updating learning rate to 0.05
+epoch: 1
+	iters: 100, epoch: 2 | loss: 0.3484742
+	speed: 0.2324s/iter; left time: 99.7001s
+	iters: 200, epoch: 2 | loss: 0.3898703
+	speed: 0.1010s/iter; left time: 33.2404s
+Epoch: 2 cost time: 26.973570585250854
+Epoch: 2, Steps: 264 | Train Loss: 0.3806148 Vali Loss: 0.7793952 Test Loss: 0.4345959
+EarlyStopping counter: 1 out of 5
+Updating learning rate to 0.025
+epoch: 2
+	iters: 100, epoch: 3 | loss: 0.3724860
+	speed: 0.2354s/iter; left time: 38.8458s
+	iters: 200, epoch: 3 | loss: 0.3747417
+	speed: 0.1070s/iter; left time: 6.9521s
+Epoch: 3 cost time: 28.91463613510132
+Epoch: 3, Steps: 264 | Train Loss: 0.3726555 Vali Loss: 0.7518951 Test Loss: 0.4135365
+Validation loss decreased (0.777772 --> 0.751895).  Saving model ...
+Updating learning rate to 0.0125
+>>>>>>>testing : test_MSFCGNN_ETTh1_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 2785
+preds_shape: (87, 32, 96, 7)
+trues_shape: (87, 32, 96, 7)
+nd:0.5227829217910767, nrmse:0.8078888654708862, mse:0.4135364294052124, mae:0.41612768173217773, rse:0.6108163595199585, mape:9.598984718322754
+Use GPU: cuda:0
+>>>>>>>start training : test_MSFCGNN_ETTh1_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8449
+val 2785
+test 2785
+epoch: 0
+	iters: 100, epoch: 1 | loss: 0.5125278
+	speed: 0.1104s/iter; left time: 76.5309s
+	iters: 200, epoch: 1 | loss: 0.4162483
+	speed: 0.1017s/iter; left time: 60.3201s
+Epoch: 1 cost time: 28.26313090324402

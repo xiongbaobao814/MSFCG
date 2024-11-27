@@ -1,0 +1,16 @@
+{"time":"2024-11-25T21:03:38.986729321+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T21:03:38.986751461+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241125_210338-uxsgg5hw/logs/debug-core.log"}
+{"time":"2024-11-25T21:03:39.103342336+08:00","level":"INFO","msg":"created new stream","id":"uxsgg5hw"}
+{"time":"2024-11-25T21:03:39.103413588+08:00","level":"INFO","msg":"stream: started","id":"uxsgg5hw"}
+{"time":"2024-11-25T21:03:39.103450088+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"uxsgg5hw"}
+{"time":"2024-11-25T21:03:39.103482349+08:00","level":"INFO","msg":"sender: started","stream_id":"uxsgg5hw"}
+{"time":"2024-11-25T21:03:39.103641202+08:00","level":"INFO","msg":"handler: started","stream_id":"uxsgg5hw"}
+{"time":"2024-11-25T21:03:39.776280154+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-25T21:21:09.686451901+08:00","level":"INFO","msg":"stream: closing","id":"uxsgg5hw"}
+{"time":"2024-11-25T21:21:09.686513501+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-25T21:21:09.687406678+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-25T21:21:14.48040084+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-25T21:21:14.999089135+08:00","level":"INFO","msg":"handler: closed","stream_id":"uxsgg5hw"}
+{"time":"2024-11-25T21:21:14.999197685+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"uxsgg5hw"}
+{"time":"2024-11-25T21:21:14.999226405+08:00","level":"INFO","msg":"sender: closed","stream_id":"uxsgg5hw"}
+{"time":"2024-11-25T21:21:14.999391804+08:00","level":"INFO","msg":"stream: closed","id":"uxsgg5hw"}

@@ -1,0 +1,14 @@
+
+Use GPU: cuda:0
+Traceback (most recent call last):
+  File "/home/shilin/code/MSFCG-main/MSFCG/run_longExp.py", line 155, in <module>
+    exp = Exp(args)  # set experiments
+  File "/home/shilin/code/MSFCG-main/MSFCG/exp/exp_main.py", line 23, in __init__
+    super(Exp_Main, self).__init__(args)
+  File "/home/shilin/code/MSFCG-main/MSFCG/exp/exp_basic.py", line 10, in __init__
+    self.model = self._build_model().to(self.device)
+  File "/home/shilin/code/MSFCG-main/MSFCG/exp/exp_main.py", line 33, in _build_model
+    model = model_dict[self.args.model].Model(self.args).float()
+  File "/home/shilin/code/MSFCG-main/MSFCG/models/MSGNet.py", line 104, in __init__
+    self.seq2pred = Predict(configs.individual ,configs.c_out,configs.seq_len, configs.pred_len, configs.dropout)
+NameError: name 'Predict' is not defined

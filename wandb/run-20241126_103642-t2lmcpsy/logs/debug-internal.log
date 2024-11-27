@@ -1,0 +1,8 @@
+{"time":"2024-11-26T10:36:42.865829613+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-26T10:36:42.865851573+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241126_103642-t2lmcpsy/logs/debug-core.log"}
+{"time":"2024-11-26T10:36:42.978310549+08:00","level":"INFO","msg":"created new stream","id":"t2lmcpsy"}
+{"time":"2024-11-26T10:36:42.978376749+08:00","level":"INFO","msg":"stream: started","id":"t2lmcpsy"}
+{"time":"2024-11-26T10:36:42.97843588+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"t2lmcpsy"}
+{"time":"2024-11-26T10:36:42.97844659+08:00","level":"INFO","msg":"sender: started","stream_id":"t2lmcpsy"}
+{"time":"2024-11-26T10:36:42.97850701+08:00","level":"INFO","msg":"handler: started","stream_id":"t2lmcpsy"}
+{"time":"2024-11-26T10:36:43.476272861+08:00","level":"INFO","msg":"Starting system monitor"}

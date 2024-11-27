@@ -1,0 +1,16 @@
+{"time":"2024-11-26T10:44:16.671209515+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-26T10:44:16.671257896+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241126_104416-v397dbnb/logs/debug-core.log"}
+{"time":"2024-11-26T10:44:17.189637992+08:00","level":"INFO","msg":"created new stream","id":"v397dbnb"}
+{"time":"2024-11-26T10:44:17.189741932+08:00","level":"INFO","msg":"stream: started","id":"v397dbnb"}
+{"time":"2024-11-26T10:44:17.189762443+08:00","level":"INFO","msg":"handler: started","stream_id":"v397dbnb"}
+{"time":"2024-11-26T10:44:17.189812713+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"v397dbnb"}
+{"time":"2024-11-26T10:44:17.189812553+08:00","level":"INFO","msg":"sender: started","stream_id":"v397dbnb"}
+{"time":"2024-11-26T10:44:17.682736203+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-26T10:47:59.915588885+08:00","level":"INFO","msg":"stream: closing","id":"v397dbnb"}
+{"time":"2024-11-26T10:47:59.915661153+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-26T10:47:59.916641488+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-26T10:48:01.048380218+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-26T10:48:01.551469087+08:00","level":"INFO","msg":"handler: closed","stream_id":"v397dbnb"}
+{"time":"2024-11-26T10:48:01.551529333+08:00","level":"INFO","msg":"sender: closed","stream_id":"v397dbnb"}
+{"time":"2024-11-26T10:48:01.551522592+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"v397dbnb"}
+{"time":"2024-11-26T10:48:01.55168558+08:00","level":"INFO","msg":"stream: closed","id":"v397dbnb"}

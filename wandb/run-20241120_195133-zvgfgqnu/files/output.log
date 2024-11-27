@@ -1,0 +1,8 @@
+Use GPU: cuda:0
+>>>>>>>start training : test_MSFCGNN_ETTm1_ftM_sl96_ll48_pl96_dm512_nh8_el3_dl1_df2048_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 34369
+val 11425
+test 11425
+epoch: 0
+[34m[1mwandb[39m[22m: 500 encountered ({"errors":[{"message":"context deadline exceeded","path":["project"]}],"data":{"project":null}}), retrying request
+[34m[1mwandb[39m[22m: Network error resolved after 0:01:10.003829, resuming normal operation.

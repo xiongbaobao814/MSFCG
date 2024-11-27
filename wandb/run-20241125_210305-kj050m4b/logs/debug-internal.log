@@ -1,0 +1,9 @@
+{"time":"2024-11-25T21:03:05.563933402+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T21:03:05.563975413+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241125_210305-kj050m4b/logs/debug-core.log"}
+{"time":"2024-11-25T21:03:05.676586993+08:00","level":"INFO","msg":"created new stream","id":"kj050m4b"}
+{"time":"2024-11-25T21:03:05.676617753+08:00","level":"INFO","msg":"stream: started","id":"kj050m4b"}
+{"time":"2024-11-25T21:03:05.676641774+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"kj050m4b"}
+{"time":"2024-11-25T21:03:05.676661234+08:00","level":"INFO","msg":"sender: started","stream_id":"kj050m4b"}
+{"time":"2024-11-25T21:03:05.676689325+08:00","level":"INFO","msg":"handler: started","stream_id":"kj050m4b"}
+{"time":"2024-11-25T21:03:06.267852095+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-26T00:59:17.066717653+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/myself0/MSFCGNN/kj050m4b/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:60304->127.0.0.53:53: i/o timeout"}

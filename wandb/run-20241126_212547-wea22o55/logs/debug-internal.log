@@ -1,0 +1,16 @@
+{"time":"2024-11-26T21:25:47.299733984+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-26T21:25:47.299767844+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241126_212547-wea22o55/logs/debug-core.log"}
+{"time":"2024-11-26T21:25:47.416217176+08:00","level":"INFO","msg":"created new stream","id":"wea22o55"}
+{"time":"2024-11-26T21:25:47.416244517+08:00","level":"INFO","msg":"stream: started","id":"wea22o55"}
+{"time":"2024-11-26T21:25:47.416279427+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"wea22o55"}
+{"time":"2024-11-26T21:25:47.416320878+08:00","level":"INFO","msg":"sender: started","stream_id":"wea22o55"}
+{"time":"2024-11-26T21:25:47.416331468+08:00","level":"INFO","msg":"handler: started","stream_id":"wea22o55"}
+{"time":"2024-11-26T21:25:48.216384936+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-26T21:39:02.576912603+08:00","level":"INFO","msg":"stream: closing","id":"wea22o55"}
+{"time":"2024-11-26T21:39:02.576996769+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-26T21:39:02.578054152+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-26T21:39:04.086213351+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-26T21:39:04.701510264+08:00","level":"INFO","msg":"handler: closed","stream_id":"wea22o55"}
+{"time":"2024-11-26T21:39:04.70158935+08:00","level":"INFO","msg":"sender: closed","stream_id":"wea22o55"}
+{"time":"2024-11-26T21:39:04.701579941+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wea22o55"}
+{"time":"2024-11-26T21:39:04.70176768+08:00","level":"INFO","msg":"stream: closed","id":"wea22o55"}
