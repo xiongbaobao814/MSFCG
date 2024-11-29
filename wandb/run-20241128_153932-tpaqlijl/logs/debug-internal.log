@@ -1,0 +1,16 @@
+{"time":"2024-11-28T15:39:32.449128091+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T15:39:32.449164521+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241128_153932-tpaqlijl/logs/debug-core.log"}
+{"time":"2024-11-28T15:39:33.17654021+08:00","level":"INFO","msg":"created new stream","id":"tpaqlijl"}
+{"time":"2024-11-28T15:39:33.176632691+08:00","level":"INFO","msg":"stream: started","id":"tpaqlijl"}
+{"time":"2024-11-28T15:39:33.176682171+08:00","level":"INFO","msg":"sender: started","stream_id":"tpaqlijl"}
+{"time":"2024-11-28T15:39:33.176683881+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"tpaqlijl"}
+{"time":"2024-11-28T15:39:33.176728271+08:00","level":"INFO","msg":"handler: started","stream_id":"tpaqlijl"}
+{"time":"2024-11-28T15:39:33.613263259+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T15:42:25.540490207+08:00","level":"INFO","msg":"stream: closing","id":"tpaqlijl"}
+{"time":"2024-11-28T15:42:25.540547997+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T15:42:25.541734839+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T15:42:26.617505967+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T15:42:27.039152053+08:00","level":"INFO","msg":"handler: closed","stream_id":"tpaqlijl"}
+{"time":"2024-11-28T15:42:27.039219263+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tpaqlijl"}
+{"time":"2024-11-28T15:42:27.039228963+08:00","level":"INFO","msg":"sender: closed","stream_id":"tpaqlijl"}
+{"time":"2024-11-28T15:42:27.039322243+08:00","level":"INFO","msg":"stream: closed","id":"tpaqlijl"}

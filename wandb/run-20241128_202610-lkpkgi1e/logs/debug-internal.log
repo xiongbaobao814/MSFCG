@@ -1,0 +1,16 @@
+{"time":"2024-11-28T20:26:11.002377214+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T20:26:11.002415963+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241128_202610-lkpkgi1e/logs/debug-core.log"}
+{"time":"2024-11-28T20:26:11.115976457+08:00","level":"INFO","msg":"created new stream","id":"lkpkgi1e"}
+{"time":"2024-11-28T20:26:11.116039835+08:00","level":"INFO","msg":"stream: started","id":"lkpkgi1e"}
+{"time":"2024-11-28T20:26:11.116095033+08:00","level":"INFO","msg":"handler: started","stream_id":"lkpkgi1e"}
+{"time":"2024-11-28T20:26:11.116155451+08:00","level":"INFO","msg":"sender: started","stream_id":"lkpkgi1e"}
+{"time":"2024-11-28T20:26:11.116093433+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"lkpkgi1e"}
+{"time":"2024-11-28T20:26:17.005897767+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T20:59:56.043090245+08:00","level":"INFO","msg":"stream: closing","id":"lkpkgi1e"}
+{"time":"2024-11-28T20:59:56.04313927+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T20:59:56.044227351+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T20:59:57.369509177+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T20:59:57.921807446+08:00","level":"INFO","msg":"handler: closed","stream_id":"lkpkgi1e"}
+{"time":"2024-11-28T20:59:57.921857021+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lkpkgi1e"}
+{"time":"2024-11-28T20:59:57.921891055+08:00","level":"INFO","msg":"sender: closed","stream_id":"lkpkgi1e"}
+{"time":"2024-11-28T20:59:57.922001166+08:00","level":"INFO","msg":"stream: closed","id":"lkpkgi1e"}

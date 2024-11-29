@@ -1,0 +1,18 @@
+Use GPU: cuda:0
+>>>>>>>start training : test_MSFCGNN_ETTm1_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df64_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 34369
+val 11425
+test 11425
+epoch: 1
+Traceback (most recent call last):
+  File "/home/shilin/code/MSFCG-main/MSFCG/run_longExp.py", line 155, in <module>
+    exp.train(setting)
+  File "/home/shilin/code/MSFCG-main/MSFCG/exp/exp_main.py", line 163, in train
+    outputs = self.model(batch_x, batch_x_mark, dec_inp, batch_y_mark)  # [32, 96, 7]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/models/MSFCGNN.py", line 245, in forward
+    out = out * (stdev[:, 0, :].unsqueeze(1).repeat(1, self.pred_len, 1))
+RuntimeError: The size of tensor a (64) must match the size of tensor b (7) at non-singleton dimension 2

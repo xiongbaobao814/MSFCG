@@ -1,0 +1,16 @@
+{"time":"2024-11-28T22:39:40.968072144+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T22:39:40.968093014+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241128_223940-oqkkuo90/logs/debug-core.log"}
+{"time":"2024-11-28T22:39:41.586272374+08:00","level":"INFO","msg":"created new stream","id":"oqkkuo90"}
+{"time":"2024-11-28T22:39:41.586317163+08:00","level":"INFO","msg":"stream: started","id":"oqkkuo90"}
+{"time":"2024-11-28T22:39:41.586359302+08:00","level":"INFO","msg":"sender: started","stream_id":"oqkkuo90"}
+{"time":"2024-11-28T22:39:41.586362672+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"oqkkuo90"}
+{"time":"2024-11-28T22:39:41.586392802+08:00","level":"INFO","msg":"handler: started","stream_id":"oqkkuo90"}
+{"time":"2024-11-28T22:39:42.065943082+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T22:39:43.821253349+08:00","level":"INFO","msg":"stream: closing","id":"oqkkuo90"}
+{"time":"2024-11-28T22:39:43.821292168+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T22:39:43.82190862+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T22:39:44.919003806+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T22:39:45.324412561+08:00","level":"INFO","msg":"handler: closed","stream_id":"oqkkuo90"}
+{"time":"2024-11-28T22:39:45.324438261+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"oqkkuo90"}
+{"time":"2024-11-28T22:39:45.32447498+08:00","level":"INFO","msg":"sender: closed","stream_id":"oqkkuo90"}
+{"time":"2024-11-28T22:39:45.324613589+08:00","level":"INFO","msg":"stream: closed","id":"oqkkuo90"}

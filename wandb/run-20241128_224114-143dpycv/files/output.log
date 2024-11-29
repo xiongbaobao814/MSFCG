@@ -1,0 +1,75 @@
+Use GPU: cuda:0
+>>>>>>>start training : test_MSFCGNN_ETTh1_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df64_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8449
+val 2785
+test 2785
+epoch: 1
+	iters: 100, epoch: 1 | loss: 0.3350618
+	speed: 0.1635s/iter; left time: 113.2985s
+	iters: 200, epoch: 1 | loss: 0.3569056
+	speed: 0.1560s/iter; left time: 92.5293s
+Epoch: 1 cost time: 42.95961332321167
+Epoch: 1, Steps: 264 | Train Loss: 0.3793457 Vali Loss: 0.7563856 Test Loss: 0.3997279
+Validation loss decreased (inf --> 0.756386).  Saving model ...
+Updating learning rate to 0.01
+epoch: 2
+	iters: 100, epoch: 2 | loss: 0.3763723
+	speed: 0.4110s/iter; left time: 176.3256s
+	iters: 200, epoch: 2 | loss: 0.3824926
+	speed: 0.1692s/iter; left time: 55.6730s
+Epoch: 2 cost time: 45.03690719604492
+Epoch: 2, Steps: 264 | Train Loss: 0.3556618 Vali Loss: 0.7601092 Test Loss: 0.4099675
+EarlyStopping counter: 1 out of 5
+Updating learning rate to 0.005
+epoch: 3
+	iters: 100, epoch: 3 | loss: 0.3852564
+	speed: 0.3971s/iter; left time: 65.5204s
+	iters: 200, epoch: 3 | loss: 0.3485477
+	speed: 0.1697s/iter; left time: 11.0321s
+Epoch: 3 cost time: 44.25595688819885
+Epoch: 3, Steps: 264 | Train Loss: 0.3459791 Vali Loss: 0.7253851 Test Loss: 0.4016275
+Validation loss decreased (0.756386 --> 0.725385).  Saving model ...
+Updating learning rate to 0.0025
+>>>>>>>testing : test_MSFCGNN_ETTh1_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df64_fc1_ebtimeF_dtTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 2785
+preds_shape: (87, 32, 96, 7)
+trues_shape: (87, 32, 96, 7)
+nd:0.5165637731552124, nrmse:0.7961711287498474, mse:0.40162739157676697, mae:0.4111773371696472, rse:0.6019569635391235, mape:10.231504440307617
+Use GPU: cuda:0
+>>>>>>>start training : test_MSFCGNN_ETTh1_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df64_fc1_ebtimeF_dtTrue_test_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8449
+val 2785
+test 2785
+epoch: 1
+	iters: 100, epoch: 1 | loss: 0.3723377
+	speed: 0.1677s/iter; left time: 116.1888s
+	iters: 200, epoch: 1 | loss: 0.3986026
+	speed: 0.1590s/iter; left time: 94.2980s
+Epoch: 1 cost time: 43.2401978969574
+Epoch: 1, Steps: 264 | Train Loss: 0.3816453 Vali Loss: 0.7476596 Test Loss: 0.4099495
+Validation loss decreased (inf --> 0.747660).  Saving model ...
+Updating learning rate to 0.01
+epoch: 2
+	iters: 100, epoch: 2 | loss: 0.3832679
+	speed: 0.3892s/iter; left time: 166.9663s
+	iters: 200, epoch: 2 | loss: 0.3151620
+	speed: 0.1503s/iter; left time: 49.4408s
+Epoch: 2 cost time: 40.67423987388611
+Epoch: 2, Steps: 264 | Train Loss: 0.3584049 Vali Loss: 0.7133138 Test Loss: 0.3947767
+Validation loss decreased (0.747660 --> 0.713314).  Saving model ...
+Updating learning rate to 0.005
+epoch: 3
+	iters: 100, epoch: 3 | loss: 0.3413887
+	speed: 0.3867s/iter; left time: 63.8023s
+	iters: 200, epoch: 3 | loss: 0.4326286
+	speed: 0.1551s/iter; left time: 10.0843s
+Epoch: 3 cost time: 41.61987805366516
+Epoch: 3, Steps: 264 | Train Loss: 0.3444270 Vali Loss: 0.7202029 Test Loss: 0.3896529
+EarlyStopping counter: 1 out of 5
+Updating learning rate to 0.0025
+>>>>>>>testing : test_MSFCGNN_ETTh1_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df64_fc1_ebtimeF_dtTrue_test_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 2785
+preds_shape: (87, 32, 96, 7)
+trues_shape: (87, 32, 96, 7)
+nd:0.5133089423179626, nrmse:0.789351761341095, mse:0.3947767913341522, mae:0.4085865616798401, rse:0.5968010425567627, mape:9.901430130004883
+time: 350.78069019317627

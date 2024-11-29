@@ -1,0 +1,49 @@
+{
+  "os": "Linux-5.15.0-125-generic-x86_64-with-glibc2.31",
+  "python": "3.10.14",
+  "startedAt": "2024-11-28T07:21:46.405169Z",
+  "program": "/home/shilin/code/MSFCG-main/MSFCG/run_longExp.py",
+  "codePath": "run_longExp.py",
+  "git": {
+    "remote": "git@github.com:xiongbaobao814/MSFCG.git",
+    "commit": "d0b180341f3cbb752da6c169188dad61ec333141"
+  },
+  "email": "13121972900@163.com",
+  "root": "/home/shilin/code/MSFCG-main/MSFCG",
+  "host": "iscashpc",
+  "username": "shilin",
+  "executable": "/home/shilin/miniconda3/envs/python310/bin/python",
+  "codePathLocal": "run_longExp.py",
+  "cpu_count": 128,
+  "cpu_count_logical": 256,
+  "gpu": "NVIDIA A100-PCIE-40GB",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "53660876800",
+      "used": "46847127552"
+    }
+  },
+  "memory": {
+    "total": "270236495872"
+  },
+  "cpu": {
+    "count": 128,
+    "countLogical": 256
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100-PCIE-40GB",
+      "memoryTotal": "42949672960",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-PCIE-40GB",
+      "memoryTotal": "42949672960",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.6"
+}

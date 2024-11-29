@@ -1,0 +1,16 @@
+{"time":"2024-11-28T21:12:16.802150169+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T21:12:16.80216991+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241128_211216-0l2mn2us/logs/debug-core.log"}
+{"time":"2024-11-28T21:12:17.118333968+08:00","level":"INFO","msg":"created new stream","id":"0l2mn2us"}
+{"time":"2024-11-28T21:12:17.118397641+08:00","level":"INFO","msg":"stream: started","id":"0l2mn2us"}
+{"time":"2024-11-28T21:12:17.118433382+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"0l2mn2us"}
+{"time":"2024-11-28T21:12:17.118447323+08:00","level":"INFO","msg":"sender: started","stream_id":"0l2mn2us"}
+{"time":"2024-11-28T21:12:17.118575337+08:00","level":"INFO","msg":"handler: started","stream_id":"0l2mn2us"}
+{"time":"2024-11-28T21:12:17.572376051+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T21:25:47.868890707+08:00","level":"INFO","msg":"stream: closing","id":"0l2mn2us"}
+{"time":"2024-11-28T21:25:47.868951928+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T21:25:47.869676995+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T21:25:49.3202333+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T21:25:49.712434649+08:00","level":"INFO","msg":"handler: closed","stream_id":"0l2mn2us"}
+{"time":"2024-11-28T21:25:49.712512831+08:00","level":"INFO","msg":"sender: closed","stream_id":"0l2mn2us"}
+{"time":"2024-11-28T21:25:49.712508371+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0l2mn2us"}
+{"time":"2024-11-28T21:25:49.712619734+08:00","level":"INFO","msg":"stream: closed","id":"0l2mn2us"}

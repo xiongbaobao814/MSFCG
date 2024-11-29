@@ -1,0 +1,8 @@
+{"time":"2024-11-28T16:03:44.983388189+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T16:03:44.98342121+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG-main/MSFCG/wandb/run-20241128_160344-zts348ze/logs/debug-core.log"}
+{"time":"2024-11-28T16:03:45.100840658+08:00","level":"INFO","msg":"created new stream","id":"zts348ze"}
+{"time":"2024-11-28T16:03:45.100885389+08:00","level":"INFO","msg":"stream: started","id":"zts348ze"}
+{"time":"2024-11-28T16:03:45.10091689+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"zts348ze"}
+{"time":"2024-11-28T16:03:45.100938991+08:00","level":"INFO","msg":"handler: started","stream_id":"zts348ze"}
+{"time":"2024-11-28T16:03:45.100995733+08:00","level":"INFO","msg":"sender: started","stream_id":"zts348ze"}
+{"time":"2024-11-28T16:03:45.586490722+08:00","level":"INFO","msg":"Starting system monitor"}

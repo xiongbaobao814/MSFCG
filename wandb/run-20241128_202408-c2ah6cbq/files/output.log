@@ -1,0 +1,42 @@
+Use GPU: cuda:0
+>>>>>>>start training : test_MSFCGNN_ETTm1_ftM_sl96_ll48_pl96_dm128_nh8_el2_dl1_df64_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 34369
+val 11425
+test 11425
+epoch: 1
+Traceback (most recent call last):
+  File "/home/shilin/code/MSFCG-main/MSFCG/run_longExp.py", line 154, in <module>
+    exp.train(setting)
+  File "/home/shilin/code/MSFCG-main/MSFCG/exp/exp_main.py", line 163, in train
+    outputs = self.model(batch_x, batch_x_mark, dec_inp, batch_y_mark)  # [32, 96, 7]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/models/MSFCGNN.py", line 237, in forward
+    layer_out = self.model[i](x_input)              # [32, 96, 7]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/models/MSFCGNN.py", line 170, in forward
+    output = self.gconv[i](out)         # [32, 96, 7]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/models/MSFCGNN.py", line 122, in forward
+    MPNN_output1 = self.MPNN1(A_input_)                           # [32, 7, 16]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/layers/MSFCGBlock.py", line 263, in forward
+    GCNPooling_output = self.MPNN(new_input_con, Adj_decay, input_con)  # [32, 1, 7, 16] [32, 1, 7, 16] [64, 14, 16]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG-main/MSFCG/layers/MSFCGBlock.py", line 211, in forward
+    GCN_output = torch.reshape(GCN_output_, [bs, num_windows, 2, num_nodes, self.output_dim])
+RuntimeError: shape '[32, 1, 2, 128, 16]' is invalid for input of size 65536

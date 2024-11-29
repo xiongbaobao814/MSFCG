@@ -10,3 +10,7 @@
 {"time":"2024-11-27T11:34:07.391315005+08:00","level":"INFO","msg":"Stopping system monitor"}
 {"time":"2024-11-27T11:34:07.392189589+08:00","level":"INFO","msg":"Stopped system monitor"}
 {"time":"2024-11-27T11:34:09.032291293+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-27T11:34:14.582326917+08:00","level":"INFO","msg":"handler: closed","stream_id":"mv5vmmru"}
+{"time":"2024-11-27T11:34:14.582392337+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mv5vmmru"}
+{"time":"2024-11-27T11:34:14.582442508+08:00","level":"INFO","msg":"sender: closed","stream_id":"mv5vmmru"}
+{"time":"2024-11-27T11:34:14.582544198+08:00","level":"INFO","msg":"stream: closed","id":"mv5vmmru"}
