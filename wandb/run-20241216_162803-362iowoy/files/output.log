@@ -1,0 +1,26 @@
+Use GPU: cuda:0
+>>>>>>>start training : ETTh2_MSFCGNN2_ftETTh2_slM_pl96_336>>>>>>>>>>>>>>>>>>>>>>>>>>
+Traceback (most recent call last):
+  File "/home/shilin/code/MSFCG/run.py", line 127, in <module>
+    exp.train(setting)
+  File "/home/shilin/code/MSFCG/exp/exp_main.py", line 85, in train
+    train_data, train_loader = self._get_data(flag='train')
+  File "/home/shilin/code/MSFCG/exp/exp_main.py", line 39, in _get_data
+    data_set, data_loader = data_provider(self.args, flag)
+  File "/home/shilin/code/MSFCG/data_provider/data_factory.py", line 36, in data_provider
+    data_set = Data(
+  File "/home/shilin/code/MSFCG/data_provider/data_loader.py", line 33, in __init__
+    self.__read_data__()
+  File "/home/shilin/code/MSFCG/data_provider/data_loader.py", line 37, in __read_data__
+    df_raw = pd.read_csv(os.path.join(self.root_path, self.data_path))
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/home/dell/shilin/code/all_datasets/ETT-small/ETTh2.csv'

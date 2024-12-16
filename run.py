@@ -20,7 +20,7 @@ if __name__ == '__main__':
     # data loader
     parser.add_argument('--model_id', type=str, default="ETTh2")
     parser.add_argument('--data', type=str, default='ETTh2', help='dataset type')
-    parser.add_argument('--root_path', type=str, default='/home/dell/shilin/code/all_datasets/ETT-small/', help='root path of the data file')
+    parser.add_argument('--root_path', type=str, default='/home/shilin/code/all_datasets/ETT-small/', help='root path of the data file')
     parser.add_argument('--data_path', type=str, default='ETTh2.csv', help='data file')
     parser.add_argument('--freq', type=str, default='h', help='freq for time features encoding,'
                         'options:[s:secondly, m:minutely, h:hourly, d:daily, b:business days, w:weekly, m:monthly], you can also use more detailed freq like 15min or 3h')
@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
     # forecasting task
     parser.add_argument('--seq_len', type=int, default=96, help='input sequence length')
-    parser.add_argument('--pred_len', type=int, default=720, help='prediction sequence length')
+    parser.add_argument('--pred_len', type=int, default=192, help='prediction sequence length')
     parser.add_argument('--individual', action='store_true', default=False, help='DLinear: a linear layer for each variate(channel) individually')
 
     # # model

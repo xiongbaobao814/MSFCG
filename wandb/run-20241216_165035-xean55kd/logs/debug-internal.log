@@ -1,0 +1,16 @@
+{"time":"2024-12-16T16:50:35.663350877+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-16T16:50:35.663370407+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241216_165035-xean55kd/logs/debug-core.log"}
+{"time":"2024-12-16T16:50:36.176783913+08:00","level":"INFO","msg":"created new stream","id":"xean55kd"}
+{"time":"2024-12-16T16:50:36.176830753+08:00","level":"INFO","msg":"stream: started","id":"xean55kd"}
+{"time":"2024-12-16T16:50:36.176871503+08:00","level":"INFO","msg":"handler: started","stream_id":"xean55kd"}
+{"time":"2024-12-16T16:50:36.176859533+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"xean55kd"}
+{"time":"2024-12-16T16:50:36.176951453+08:00","level":"INFO","msg":"sender: started","stream_id":"xean55kd"}
+{"time":"2024-12-16T16:50:36.589853738+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-16T17:17:05.480679843+08:00","level":"INFO","msg":"stream: closing","id":"xean55kd"}
+{"time":"2024-12-16T17:17:05.480727814+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-16T17:17:05.481518531+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-16T17:17:08.658008249+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-16T17:17:09.055440878+08:00","level":"INFO","msg":"handler: closed","stream_id":"xean55kd"}
+{"time":"2024-12-16T17:17:09.05553134+08:00","level":"INFO","msg":"sender: closed","stream_id":"xean55kd"}
+{"time":"2024-12-16T17:17:09.05552812+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xean55kd"}
+{"time":"2024-12-16T17:17:09.055699693+08:00","level":"INFO","msg":"stream: closed","id":"xean55kd"}
