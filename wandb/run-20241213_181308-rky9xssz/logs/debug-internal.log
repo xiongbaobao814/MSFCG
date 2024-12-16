@@ -1,0 +1,13 @@
+{"time":"2024-12-13T18:13:08.076185971+08:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-13T18:13:08.076200594+08:00","level":"INFO","msg":"created symlink","path":"/home/dell/shilin/code/pathformer-main/wandb/run-20241213_181308-rky9xssz/logs/debug-core.log"}
+{"time":"2024-12-13T18:13:08.182265953+08:00","level":"INFO","msg":"created new stream","id":"rky9xssz"}
+{"time":"2024-12-13T18:13:08.182296442+08:00","level":"INFO","msg":"stream: started","id":"rky9xssz"}
+{"time":"2024-12-13T18:13:08.182615032+08:00","level":"INFO","msg":"sender: started","stream_id":"rky9xssz"}
+{"time":"2024-12-13T18:13:08.18231402+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"rky9xssz"}}
+{"time":"2024-12-13T18:13:08.182324688+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"rky9xssz"}}
+{"time":"2024-12-13T18:13:08.648276229+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T03:32:24.508971284+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/myself0/MSFCGNN2/rky9xssz/file_stream"}
+{"time":"2024-12-14T04:13:58.932575975+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/myself0/MSFCGNN2/rky9xssz/file_stream"}
+{"time":"2024-12-14T12:52:47.357387858+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/myself0/MSFCGNN2/rky9xssz/file_stream"}
+{"time":"2024-12-15T17:36:17.943338417+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/myself0/MSFCGNN2/rky9xssz/file_stream"}
+{"time":"2024-12-16T07:14:28.951016887+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/myself0/MSFCGNN2/rky9xssz/file_stream"}
