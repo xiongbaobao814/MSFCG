@@ -1,0 +1,13 @@
+Use GPU: cuda:0
+>>>>>>>start training : ETTh2_MSFCGNN2_ftETTh2_slM_pl96_192>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8353
+val 2689
+test 2689
+	iters: 100, epoch: 1 | loss: -1452.1184082
+	speed: 0.3949s/iter; left time: 270.1321s
+	iters: 200, epoch: 1 | loss: -221634.0781250
+	speed: 0.3884s/iter; left time: 226.8467s
+Epoch: 1 cost time: 100.74644255638123
+Epoch: 1, Steps: 261 | Train Loss: -91770.6688097 Vali Loss: -149775.5000000 Test Loss: -105842.5000000
+Validation loss decreased (inf --> -149775.500000).  Saving model ...
+Updating learning rate to 0.009376901061748624

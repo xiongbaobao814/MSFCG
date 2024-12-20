@@ -1,0 +1,10 @@
+{"time":"2024-12-18T22:37:03.888265296+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-18T22:37:03.888299816+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241218_223703-an7wbqca/logs/debug-core.log"}
+{"time":"2024-12-18T22:37:04.005888224+08:00","level":"INFO","msg":"created new stream","id":"an7wbqca"}
+{"time":"2024-12-18T22:37:04.005956984+08:00","level":"INFO","msg":"stream: started","id":"an7wbqca"}
+{"time":"2024-12-18T22:37:04.006018405+08:00","level":"INFO","msg":"sender: started","stream_id":"an7wbqca"}
+{"time":"2024-12-18T22:37:04.006008064+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"an7wbqca"}
+{"time":"2024-12-18T22:37:04.006116195+08:00","level":"INFO","msg":"handler: started","stream_id":"an7wbqca"}
+{"time":"2024-12-18T22:37:04.458778699+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-19T01:13:35.557314003+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/myself0/MSFCGNN2/an7wbqca/file_stream"}
+{"time":"2024-12-19T08:13:29.805409858+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/myself0/MSFCGNN2/an7wbqca/file_stream"}

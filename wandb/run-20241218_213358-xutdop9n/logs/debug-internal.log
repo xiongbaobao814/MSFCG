@@ -1,0 +1,16 @@
+{"time":"2024-12-18T21:33:58.745298407+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-18T21:33:58.745319107+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241218_213358-xutdop9n/logs/debug-core.log"}
+{"time":"2024-12-18T21:33:58.861406042+08:00","level":"INFO","msg":"created new stream","id":"xutdop9n"}
+{"time":"2024-12-18T21:33:58.861484813+08:00","level":"INFO","msg":"handler: started","stream_id":"xutdop9n"}
+{"time":"2024-12-18T21:33:58.861507813+08:00","level":"INFO","msg":"stream: started","id":"xutdop9n"}
+{"time":"2024-12-18T21:33:58.861542794+08:00","level":"INFO","msg":"sender: started","stream_id":"xutdop9n"}
+{"time":"2024-12-18T21:33:58.861530253+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"xutdop9n"}
+{"time":"2024-12-18T21:33:59.334817783+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-18T21:40:43.822790459+08:00","level":"INFO","msg":"stream: closing","id":"xutdop9n"}
+{"time":"2024-12-18T21:40:43.82285482+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-18T21:40:43.823712861+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-18T21:40:45.010220713+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-18T21:40:45.452449604+08:00","level":"INFO","msg":"handler: closed","stream_id":"xutdop9n"}
+{"time":"2024-12-18T21:40:45.452492995+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xutdop9n"}
+{"time":"2024-12-18T21:40:45.452504765+08:00","level":"INFO","msg":"sender: closed","stream_id":"xutdop9n"}
+{"time":"2024-12-18T21:40:45.452608386+08:00","level":"INFO","msg":"stream: closed","id":"xutdop9n"}

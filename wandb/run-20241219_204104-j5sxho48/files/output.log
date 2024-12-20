@@ -1,0 +1,23 @@
+Use GPU: cuda:0
+>>>>>>>start training : ETTh2_MSFCGNN1_ftETTh2_slM_pl96_192>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8353
+val 2689
+test 2689
+Traceback (most recent call last):
+  File "/home/shilin/code/MSFCG/run.py", line 127, in <module>
+    exp.train(setting)
+  File "/home/shilin/code/MSFCG/exp/exp_main.py", line 137, in train
+    outputs = self.model(batch_x, batch_x_mark)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG/models/MSFCGNN.py", line 251, in forward
+    layer_out = self.model[i](x_enc)              # [32, 96, 7]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG/models/MSFCGNN.py", line 183, in forward
+    outputs = outputs + x_enc
+RuntimeError: The size of tensor a (96) must match the size of tensor b (32) at non-singleton dimension 2

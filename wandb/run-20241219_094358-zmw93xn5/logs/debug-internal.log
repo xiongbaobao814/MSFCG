@@ -1,0 +1,16 @@
+{"time":"2024-12-19T09:43:58.559992815+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-19T09:43:58.560013876+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241219_094358-zmw93xn5/logs/debug-core.log"}
+{"time":"2024-12-19T09:43:58.675439931+08:00","level":"INFO","msg":"created new stream","id":"zmw93xn5"}
+{"time":"2024-12-19T09:43:58.675494132+08:00","level":"INFO","msg":"stream: started","id":"zmw93xn5"}
+{"time":"2024-12-19T09:43:58.675557493+08:00","level":"INFO","msg":"sender: started","stream_id":"zmw93xn5"}
+{"time":"2024-12-19T09:43:58.675548452+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"zmw93xn5"}
+{"time":"2024-12-19T09:43:58.675612483+08:00","level":"INFO","msg":"handler: started","stream_id":"zmw93xn5"}
+{"time":"2024-12-19T09:43:59.146721298+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-19T09:50:41.190776464+08:00","level":"INFO","msg":"stream: closing","id":"zmw93xn5"}
+{"time":"2024-12-19T09:50:41.190833165+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-19T09:50:41.191588015+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-19T09:50:42.331756704+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-19T09:50:42.778059961+08:00","level":"INFO","msg":"handler: closed","stream_id":"zmw93xn5"}
+{"time":"2024-12-19T09:50:42.778122322+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zmw93xn5"}
+{"time":"2024-12-19T09:50:42.778142982+08:00","level":"INFO","msg":"sender: closed","stream_id":"zmw93xn5"}
+{"time":"2024-12-19T09:50:42.778212023+08:00","level":"INFO","msg":"stream: closed","id":"zmw93xn5"}

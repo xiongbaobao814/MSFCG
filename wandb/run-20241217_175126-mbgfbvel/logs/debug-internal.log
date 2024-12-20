@@ -1,0 +1,16 @@
+{"time":"2024-12-17T17:51:26.27699529+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-17T17:51:26.277027721+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241217_175126-mbgfbvel/logs/debug-core.log"}
+{"time":"2024-12-17T17:51:26.394990838+08:00","level":"INFO","msg":"created new stream","id":"mbgfbvel"}
+{"time":"2024-12-17T17:51:26.395018718+08:00","level":"INFO","msg":"stream: started","id":"mbgfbvel"}
+{"time":"2024-12-17T17:51:26.395051919+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"mbgfbvel"}
+{"time":"2024-12-17T17:51:26.395061529+08:00","level":"INFO","msg":"handler: started","stream_id":"mbgfbvel"}
+{"time":"2024-12-17T17:51:26.39510052+08:00","level":"INFO","msg":"sender: started","stream_id":"mbgfbvel"}
+{"time":"2024-12-17T17:51:26.835303859+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-17T19:06:37.598826657+08:00","level":"INFO","msg":"stream: closing","id":"mbgfbvel"}
+{"time":"2024-12-17T19:06:37.598890597+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-17T19:06:37.599953471+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-17T19:06:38.927195789+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-17T19:06:39.331288308+08:00","level":"INFO","msg":"handler: closed","stream_id":"mbgfbvel"}
+{"time":"2024-12-17T19:06:39.331347439+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mbgfbvel"}
+{"time":"2024-12-17T19:06:39.331368769+08:00","level":"INFO","msg":"sender: closed","stream_id":"mbgfbvel"}
+{"time":"2024-12-17T19:06:39.331540572+08:00","level":"INFO","msg":"stream: closed","id":"mbgfbvel"}

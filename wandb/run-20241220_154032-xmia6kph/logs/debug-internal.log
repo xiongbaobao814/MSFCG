@@ -1,0 +1,16 @@
+{"time":"2024-12-20T15:40:32.771096545+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-20T15:40:32.771138506+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241220_154032-xmia6kph/logs/debug-core.log"}
+{"time":"2024-12-20T15:40:32.887845701+08:00","level":"INFO","msg":"created new stream","id":"xmia6kph"}
+{"time":"2024-12-20T15:40:32.887898772+08:00","level":"INFO","msg":"stream: started","id":"xmia6kph"}
+{"time":"2024-12-20T15:40:32.887969025+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"xmia6kph"}
+{"time":"2024-12-20T15:40:32.887981935+08:00","level":"INFO","msg":"handler: started","stream_id":"xmia6kph"}
+{"time":"2024-12-20T15:40:32.888031046+08:00","level":"INFO","msg":"sender: started","stream_id":"xmia6kph"}
+{"time":"2024-12-20T15:40:33.374802056+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-20T15:40:35.63157016+08:00","level":"INFO","msg":"stream: closing","id":"xmia6kph"}
+{"time":"2024-12-20T15:40:35.631587131+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-20T15:40:35.632351004+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-20T15:40:36.766283263+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-20T15:40:37.152097184+08:00","level":"INFO","msg":"handler: closed","stream_id":"xmia6kph"}
+{"time":"2024-12-20T15:40:37.152158816+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xmia6kph"}
+{"time":"2024-12-20T15:40:37.152172287+08:00","level":"INFO","msg":"sender: closed","stream_id":"xmia6kph"}
+{"time":"2024-12-20T15:40:37.15227547+08:00","level":"INFO","msg":"stream: closed","id":"xmia6kph"}

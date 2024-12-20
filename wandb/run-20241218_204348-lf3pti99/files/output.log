@@ -1,0 +1,43 @@
+Use GPU: cuda:0
+>>>>>>>start training : ETTh2_MSFCGNN2_ftETTh2_slM_pl96_192>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8353
+val 2689
+test 2689
+Traceback (most recent call last):
+  File "/home/shilin/code/MSFCG/run.py", line 127, in <module>
+    exp.train(setting)
+  File "/home/shilin/code/MSFCG/exp/exp_main.py", line 137, in train
+    outputs = self.model(batch_x, batch_x_mark)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG/models/MSFCGNN2.py", line 252, in forward
+    layer_out = self.model[i](x_input)              # [32, 96, 7]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG/models/MSFCGNN2.py", line 173, in forward
+    out = self.gconv[i](out)         # [32, 96, 7]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG/models/MSFCGNN2.py", line 126, in forward
+    MPNN_output2 = self.MPNN2(A_input_)                           # [32, 7, 16]  # [32, 7, 32],[32, 7, 64]
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG/layers/MSFCGBlock2.py", line 264, in forward
+    new_input_con = self.BN(new_input_con)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 176, in forward
+    return F.batch_norm(
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/functional.py", line 2512, in batch_norm
+    return torch.batch_norm(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB. GPU 0 has a total capacity of 39.50 GiB of which 2.06 MiB is free. Process 3526513 has 638.00 MiB memory in use. Process 3945289 has 9.55 GiB memory in use. Process 3978486 has 8.60 GiB memory in use. Process 4160999 has 7.51 GiB memory in use. Process 321203 has 7.51 GiB memory in use. Including non-PyTorch memory, this process has 5.66 GiB memory in use. Of the allocated memory 2.87 GiB is allocated by PyTorch, and 2.28 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

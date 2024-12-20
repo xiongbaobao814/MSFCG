@@ -1,0 +1,16 @@
+{"time":"2024-12-17T14:11:22.636623589+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-17T14:11:22.636661139+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241217_141122-ddm91y8s/logs/debug-core.log"}
+{"time":"2024-12-17T14:11:22.754052308+08:00","level":"INFO","msg":"created new stream","id":"ddm91y8s"}
+{"time":"2024-12-17T14:11:22.754134639+08:00","level":"INFO","msg":"sender: started","stream_id":"ddm91y8s"}
+{"time":"2024-12-17T14:11:22.754148519+08:00","level":"INFO","msg":"stream: started","id":"ddm91y8s"}
+{"time":"2024-12-17T14:11:22.754143439+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ddm91y8s"}
+{"time":"2024-12-17T14:11:22.754212589+08:00","level":"INFO","msg":"handler: started","stream_id":"ddm91y8s"}
+{"time":"2024-12-17T14:11:23.334356161+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-17T15:16:17.322823121+08:00","level":"INFO","msg":"stream: closing","id":"ddm91y8s"}
+{"time":"2024-12-17T15:16:17.322886173+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-17T15:16:17.324184354+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-17T15:16:18.605916029+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-17T15:16:19.003127278+08:00","level":"INFO","msg":"handler: closed","stream_id":"ddm91y8s"}
+{"time":"2024-12-17T15:16:19.003178559+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ddm91y8s"}
+{"time":"2024-12-17T15:16:19.00320375+08:00","level":"INFO","msg":"sender: closed","stream_id":"ddm91y8s"}
+{"time":"2024-12-17T15:16:19.003354132+08:00","level":"INFO","msg":"stream: closed","id":"ddm91y8s"}

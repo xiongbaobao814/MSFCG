@@ -1,0 +1,8 @@
+{"time":"2024-12-20T16:20:08.354003992+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-20T16:20:08.354023222+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241220_162008-sr79barj/logs/debug-core.log"}
+{"time":"2024-12-20T16:20:08.469360655+08:00","level":"INFO","msg":"created new stream","id":"sr79barj"}
+{"time":"2024-12-20T16:20:08.469405686+08:00","level":"INFO","msg":"stream: started","id":"sr79barj"}
+{"time":"2024-12-20T16:20:08.469455566+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"sr79barj"}
+{"time":"2024-12-20T16:20:08.469465476+08:00","level":"INFO","msg":"handler: started","stream_id":"sr79barj"}
+{"time":"2024-12-20T16:20:08.469494456+08:00","level":"INFO","msg":"sender: started","stream_id":"sr79barj"}
+{"time":"2024-12-20T16:20:08.991737351+08:00","level":"INFO","msg":"Starting system monitor"}

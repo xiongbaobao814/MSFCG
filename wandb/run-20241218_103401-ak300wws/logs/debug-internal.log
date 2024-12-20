@@ -1,0 +1,16 @@
+{"time":"2024-12-18T10:34:01.431459745+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-18T10:34:01.431482435+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241218_103401-ak300wws/logs/debug-core.log"}
+{"time":"2024-12-18T10:34:01.547674884+08:00","level":"INFO","msg":"created new stream","id":"ak300wws"}
+{"time":"2024-12-18T10:34:01.547727105+08:00","level":"INFO","msg":"stream: started","id":"ak300wws"}
+{"time":"2024-12-18T10:34:01.547799406+08:00","level":"INFO","msg":"sender: started","stream_id":"ak300wws"}
+{"time":"2024-12-18T10:34:01.547802126+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ak300wws"}
+{"time":"2024-12-18T10:34:01.547818376+08:00","level":"INFO","msg":"handler: started","stream_id":"ak300wws"}
+{"time":"2024-12-18T10:34:07.553536018+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-18T11:54:03.154764663+08:00","level":"INFO","msg":"stream: closing","id":"ak300wws"}
+{"time":"2024-12-18T11:54:03.154822102+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-18T11:54:03.15638943+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-18T11:54:04.473513323+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-18T11:54:04.936777696+08:00","level":"INFO","msg":"handler: closed","stream_id":"ak300wws"}
+{"time":"2024-12-18T11:54:04.936827075+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ak300wws"}
+{"time":"2024-12-18T11:54:04.936860524+08:00","level":"INFO","msg":"sender: closed","stream_id":"ak300wws"}
+{"time":"2024-12-18T11:54:04.936950631+08:00","level":"INFO","msg":"stream: closed","id":"ak300wws"}

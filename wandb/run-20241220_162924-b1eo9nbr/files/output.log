@@ -1,0 +1,15 @@
+Use GPU: cuda:0
+Traceback (most recent call last):
+  File "/home/shilin/code/MSFCG/run.py", line 124, in <module>
+    exp = Exp(args)  # set experiments
+  File "/home/shilin/code/MSFCG/exp/exp_main.py", line 24, in __init__
+    super(Exp_Main, self).__init__(args)
+  File "/home/shilin/code/MSFCG/exp/exp_basic.py", line 8, in __init__
+    self.model = self._build_model().to(self.device)
+  File "/home/shilin/code/MSFCG/exp/exp_main.py", line 32, in _build_model
+    model = model_dict[self.args.model].Model(self.args).float()
+  File "/home/shilin/code/MSFCG/models/MSFCGNN.py", line 220, in __init__
+    self.enc_embedding = DataEmbedding(self.num_nodes, self.d_model, self.embed, self.freq, self.dropout)
+  File "/home/shilin/code/MSFCG/layers/Embed.py", line 131, in __init__
+    self.position_embedding = PositionalEncoding2(d_model=d_model)
+TypeError: PositionalEncoding2.__init__() missing 1 required positional argument: 'dropout'

@@ -1,0 +1,16 @@
+{"time":"2024-12-20T15:42:12.601683951+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-20T15:42:12.601707751+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241220_154212-ue68nzrm/logs/debug-core.log"}
+{"time":"2024-12-20T15:42:12.712969714+08:00","level":"INFO","msg":"created new stream","id":"ue68nzrm"}
+{"time":"2024-12-20T15:42:12.713033376+08:00","level":"INFO","msg":"stream: started","id":"ue68nzrm"}
+{"time":"2024-12-20T15:42:12.713083457+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ue68nzrm"}
+{"time":"2024-12-20T15:42:12.713101017+08:00","level":"INFO","msg":"handler: started","stream_id":"ue68nzrm"}
+{"time":"2024-12-20T15:42:12.71317306+08:00","level":"INFO","msg":"sender: started","stream_id":"ue68nzrm"}
+{"time":"2024-12-20T15:42:13.186404853+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-20T15:42:15.272152451+08:00","level":"INFO","msg":"stream: closing","id":"ue68nzrm"}
+{"time":"2024-12-20T15:42:15.272204562+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-20T15:42:15.272914672+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-20T15:42:16.806623664+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-20T15:42:17.511272239+08:00","level":"INFO","msg":"handler: closed","stream_id":"ue68nzrm"}
+{"time":"2024-12-20T15:42:17.511388222+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ue68nzrm"}
+{"time":"2024-12-20T15:42:17.511386742+08:00","level":"INFO","msg":"sender: closed","stream_id":"ue68nzrm"}
+{"time":"2024-12-20T15:42:17.512298497+08:00","level":"INFO","msg":"stream: closed","id":"ue68nzrm"}

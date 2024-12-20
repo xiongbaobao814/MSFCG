@@ -1,0 +1,8 @@
+{"time":"2024-12-18T20:57:44.952650139+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-18T20:57:44.952671739+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241218_205744-vldej71x/logs/debug-core.log"}
+{"time":"2024-12-18T20:57:45.067486539+08:00","level":"INFO","msg":"created new stream","id":"vldej71x"}
+{"time":"2024-12-18T20:57:45.06755186+08:00","level":"INFO","msg":"stream: started","id":"vldej71x"}
+{"time":"2024-12-18T20:57:45.067613151+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vldej71x"}
+{"time":"2024-12-18T20:57:45.067622351+08:00","level":"INFO","msg":"handler: started","stream_id":"vldej71x"}
+{"time":"2024-12-18T20:57:45.067634561+08:00","level":"INFO","msg":"sender: started","stream_id":"vldej71x"}
+{"time":"2024-12-18T20:57:45.627287584+08:00","level":"INFO","msg":"Starting system monitor"}

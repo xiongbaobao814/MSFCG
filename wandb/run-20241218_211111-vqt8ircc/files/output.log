@@ -1,0 +1,9 @@
+Use GPU: cuda:0
+>>>>>>>start training : ETTh2_MSFCGNN2_ftETTh2_slM_pl96_96>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8449
+val 2785
+test 2785
+	iters: 100, epoch: 1 | loss: 0.4945031
+	speed: 0.1923s/iter; left time: 488.6813s
+	iters: 200, epoch: 1 | loss: 0.3248065
+	speed: 0.1821s/iter; left time: 444.4511s

@@ -1,0 +1,8 @@
+{"time":"2024-12-18T21:11:11.013030474+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-18T21:11:11.013058495+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241218_211111-vqt8ircc/logs/debug-core.log"}
+{"time":"2024-12-18T21:11:11.125698863+08:00","level":"INFO","msg":"created new stream","id":"vqt8ircc"}
+{"time":"2024-12-18T21:11:11.125736803+08:00","level":"INFO","msg":"stream: started","id":"vqt8ircc"}
+{"time":"2024-12-18T21:11:11.125766104+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vqt8ircc"}
+{"time":"2024-12-18T21:11:11.125784654+08:00","level":"INFO","msg":"handler: started","stream_id":"vqt8ircc"}
+{"time":"2024-12-18T21:11:11.125801724+08:00","level":"INFO","msg":"sender: started","stream_id":"vqt8ircc"}
+{"time":"2024-12-18T21:11:11.648466206+08:00","level":"INFO","msg":"Starting system monitor"}

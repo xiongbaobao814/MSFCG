@@ -1,0 +1,16 @@
+{"time":"2024-12-19T10:52:25.769861521+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-19T10:52:25.769889802+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241219_105225-ogvjg28p/logs/debug-core.log"}
+{"time":"2024-12-19T10:52:25.882877056+08:00","level":"INFO","msg":"created new stream","id":"ogvjg28p"}
+{"time":"2024-12-19T10:52:25.882903207+08:00","level":"INFO","msg":"stream: started","id":"ogvjg28p"}
+{"time":"2024-12-19T10:52:25.882944737+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ogvjg28p"}
+{"time":"2024-12-19T10:52:25.882966798+08:00","level":"INFO","msg":"sender: started","stream_id":"ogvjg28p"}
+{"time":"2024-12-19T10:52:25.883009399+08:00","level":"INFO","msg":"handler: started","stream_id":"ogvjg28p"}
+{"time":"2024-12-19T10:52:26.334183369+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-19T10:52:28.575891965+08:00","level":"INFO","msg":"stream: closing","id":"ogvjg28p"}
+{"time":"2024-12-19T10:52:28.575944206+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-19T10:52:28.576443025+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-19T10:52:29.638939682+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-19T10:52:30.015234553+08:00","level":"INFO","msg":"handler: closed","stream_id":"ogvjg28p"}
+{"time":"2024-12-19T10:52:30.015331155+08:00","level":"INFO","msg":"sender: closed","stream_id":"ogvjg28p"}
+{"time":"2024-12-19T10:52:30.015317734+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ogvjg28p"}
+{"time":"2024-12-19T10:52:30.015453547+08:00","level":"INFO","msg":"stream: closed","id":"ogvjg28p"}

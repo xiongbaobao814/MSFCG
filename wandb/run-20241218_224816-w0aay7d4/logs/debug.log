@@ -1,0 +1,26 @@
+2024-12-18 22:48:16,984 INFO    MainThread:524384 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-12-18 22:48:16,984 INFO    MainThread:524384 [wandb_setup.py:_flush():79] Configure stats pid to 524384
+2024-12-18 22:48:16,984 INFO    MainThread:524384 [wandb_setup.py:_flush():79] Loading settings from /home/shilin/.config/wandb/settings
+2024-12-18 22:48:16,984 INFO    MainThread:524384 [wandb_setup.py:_flush():79] Loading settings from /home/shilin/code/MSFCG/wandb/settings
+2024-12-18 22:48:16,984 INFO    MainThread:524384 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-12-18 22:48:16,984 INFO    MainThread:524384 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-12-18 22:48:16,984 INFO    MainThread:524384 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'run.py', 'program_abspath': '/home/shilin/code/MSFCG/run.py', 'program': '/home/shilin/code/MSFCG/run.py'}
+2024-12-18 22:48:16,984 INFO    MainThread:524384 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-18 22:48:16,985 INFO    MainThread:524384 [wandb_init.py:_log_setup():533] Logging user logs to /home/shilin/code/MSFCG/wandb/run-20241218_224816-w0aay7d4/logs/debug.log
+2024-12-18 22:48:16,985 INFO    MainThread:524384 [wandb_init.py:_log_setup():534] Logging internal logs to /home/shilin/code/MSFCG/wandb/run-20241218_224816-w0aay7d4/logs/debug-internal.log
+2024-12-18 22:48:16,985 INFO    MainThread:524384 [wandb_init.py:init():619] calling init triggers
+2024-12-18 22:48:16,985 INFO    MainThread:524384 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {}
+2024-12-18 22:48:16,985 INFO    MainThread:524384 [wandb_init.py:init():669] starting backend
+2024-12-18 22:48:16,985 INFO    MainThread:524384 [wandb_init.py:init():673] sending inform_init request
+2024-12-18 22:48:16,987 INFO    MainThread:524384 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-12-18 22:48:16,987 INFO    MainThread:524384 [wandb_init.py:init():686] backend started and connected
+2024-12-18 22:48:16,989 INFO    MainThread:524384 [wandb_init.py:init():781] updated telemetry
+2024-12-18 22:48:16,995 INFO    MainThread:524384 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-12-18 22:48:17,550 INFO    MainThread:524384 [wandb_init.py:init():867] starting run threads in backend
+2024-12-18 22:48:17,645 INFO    MainThread:524384 [wandb_run.py:_console_start():2456] atexit reg
+2024-12-18 22:48:17,645 INFO    MainThread:524384 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-12-18 22:48:17,646 INFO    MainThread:524384 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-12-18 22:48:17,646 INFO    MainThread:524384 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-12-18 22:48:17,648 INFO    MainThread:524384 [wandb_init.py:init():911] run started, returning control to user process
+2024-12-18 23:06:17,318 WARNING MsgRouterThr:524384 [router.py:message_loop():75] message_loop has been closed

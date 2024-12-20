@@ -1,0 +1,16 @@
+{"time":"2024-12-18T20:43:48.096855433+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-18T20:43:48.096877343+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241218_204348-lf3pti99/logs/debug-core.log"}
+{"time":"2024-12-18T20:43:48.212607081+08:00","level":"INFO","msg":"created new stream","id":"lf3pti99"}
+{"time":"2024-12-18T20:43:48.212666342+08:00","level":"INFO","msg":"stream: started","id":"lf3pti99"}
+{"time":"2024-12-18T20:43:48.212716203+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"lf3pti99"}
+{"time":"2024-12-18T20:43:48.212716363+08:00","level":"INFO","msg":"handler: started","stream_id":"lf3pti99"}
+{"time":"2024-12-18T20:43:48.212782944+08:00","level":"INFO","msg":"sender: started","stream_id":"lf3pti99"}
+{"time":"2024-12-18T20:43:48.660979509+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-18T20:43:51.531741753+08:00","level":"INFO","msg":"stream: closing","id":"lf3pti99"}
+{"time":"2024-12-18T20:43:51.532453703+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-18T20:43:51.533421207+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-18T20:43:52.717675499+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-18T20:43:53.131278322+08:00","level":"INFO","msg":"handler: closed","stream_id":"lf3pti99"}
+{"time":"2024-12-18T20:43:53.131335733+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lf3pti99"}
+{"time":"2024-12-18T20:43:53.131358273+08:00","level":"INFO","msg":"sender: closed","stream_id":"lf3pti99"}
+{"time":"2024-12-18T20:43:53.131431624+08:00","level":"INFO","msg":"stream: closed","id":"lf3pti99"}

@@ -1,0 +1,8 @@
+{"time":"2024-12-20T16:17:14.038835333+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-20T16:17:14.038869264+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241220_161714-xslegnr2/logs/debug-core.log"}
+{"time":"2024-12-20T16:17:14.154555787+08:00","level":"INFO","msg":"created new stream","id":"xslegnr2"}
+{"time":"2024-12-20T16:17:14.154603907+08:00","level":"INFO","msg":"stream: started","id":"xslegnr2"}
+{"time":"2024-12-20T16:17:14.154640368+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"xslegnr2"}
+{"time":"2024-12-20T16:17:14.154674348+08:00","level":"INFO","msg":"handler: started","stream_id":"xslegnr2"}
+{"time":"2024-12-20T16:17:14.154720268+08:00","level":"INFO","msg":"sender: started","stream_id":"xslegnr2"}
+{"time":"2024-12-20T16:17:14.627420718+08:00","level":"INFO","msg":"Starting system monitor"}

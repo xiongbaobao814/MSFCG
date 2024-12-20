@@ -1,0 +1,16 @@
+{"time":"2024-12-18T21:46:29.49825701+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-18T21:46:29.498296461+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241218_214629-vn493lfu/logs/debug-core.log"}
+{"time":"2024-12-18T21:46:29.614253197+08:00","level":"INFO","msg":"created new stream","id":"vn493lfu"}
+{"time":"2024-12-18T21:46:29.614303877+08:00","level":"INFO","msg":"stream: started","id":"vn493lfu"}
+{"time":"2024-12-18T21:46:29.614343748+08:00","level":"INFO","msg":"sender: started","stream_id":"vn493lfu"}
+{"time":"2024-12-18T21:46:29.614341968+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vn493lfu"}
+{"time":"2024-12-18T21:46:29.614442649+08:00","level":"INFO","msg":"handler: started","stream_id":"vn493lfu"}
+{"time":"2024-12-18T21:46:30.103194417+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-18T21:54:48.663723664+08:00","level":"INFO","msg":"stream: closing","id":"vn493lfu"}
+{"time":"2024-12-18T21:54:48.663778904+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-18T21:54:48.664579525+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-18T21:54:49.806396122+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-18T21:54:50.196566819+08:00","level":"INFO","msg":"handler: closed","stream_id":"vn493lfu"}
+{"time":"2024-12-18T21:54:50.19663353+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vn493lfu"}
+{"time":"2024-12-18T21:54:50.19664301+08:00","level":"INFO","msg":"sender: closed","stream_id":"vn493lfu"}
+{"time":"2024-12-18T21:54:50.196747062+08:00","level":"INFO","msg":"stream: closed","id":"vn493lfu"}

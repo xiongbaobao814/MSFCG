@@ -1,0 +1,8 @@
+{"time":"2024-12-20T16:48:39.838484886+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-20T16:48:39.838504106+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241220_164839-fasewg6p/logs/debug-core.log"}
+{"time":"2024-12-20T16:48:39.951131566+08:00","level":"INFO","msg":"created new stream","id":"fasewg6p"}
+{"time":"2024-12-20T16:48:39.951190655+08:00","level":"INFO","msg":"stream: started","id":"fasewg6p"}
+{"time":"2024-12-20T16:48:39.951231504+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"fasewg6p"}
+{"time":"2024-12-20T16:48:39.951253253+08:00","level":"INFO","msg":"sender: started","stream_id":"fasewg6p"}
+{"time":"2024-12-20T16:48:39.9513398+08:00","level":"INFO","msg":"handler: started","stream_id":"fasewg6p"}
+{"time":"2024-12-20T16:48:40.43438745+08:00","level":"INFO","msg":"Starting system monitor"}

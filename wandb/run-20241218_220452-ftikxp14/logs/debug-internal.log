@@ -1,0 +1,8 @@
+{"time":"2024-12-18T22:04:52.52540735+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-18T22:04:52.525428749+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241218_220452-ftikxp14/logs/debug-core.log"}
+{"time":"2024-12-18T22:04:52.63668443+08:00","level":"INFO","msg":"created new stream","id":"ftikxp14"}
+{"time":"2024-12-18T22:04:52.636718968+08:00","level":"INFO","msg":"stream: started","id":"ftikxp14"}
+{"time":"2024-12-18T22:04:52.636770677+08:00","level":"INFO","msg":"handler: started","stream_id":"ftikxp14"}
+{"time":"2024-12-18T22:04:52.636778696+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ftikxp14"}
+{"time":"2024-12-18T22:04:52.636810475+08:00","level":"INFO","msg":"sender: started","stream_id":"ftikxp14"}
+{"time":"2024-12-18T22:04:53.248818802+08:00","level":"INFO","msg":"Starting system monitor"}

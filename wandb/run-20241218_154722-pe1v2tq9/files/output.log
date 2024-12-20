@@ -1,0 +1,96 @@
+Use GPU: cuda:0
+>>>>>>>start training : ETTh1_MSFCGNN2_ftETTh1_slM_pl96_96>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8449
+val 2785
+test 2785
+	iters: 100, epoch: 1 | loss: 0.4460218
+	speed: 0.2059s/iter; left time: 523.2523s
+	iters: 200, epoch: 1 | loss: 0.4246047
+	speed: 0.1893s/iter; left time: 462.0950s
+Epoch: 1 cost time: 50.99834728240967
+Epoch: 1, Steps: 264 | Train Loss: 0.4640193 Vali Loss: 0.6181713 Test Loss: 0.4112673
+Validation loss decreased (inf --> 0.618171).  Saving model ...
+Updating learning rate to 0.00180841514866684
+	iters: 100, epoch: 2 | loss: 0.3973233
+	speed: 0.4891s/iter; left time: 1113.7815s
+	iters: 200, epoch: 2 | loss: 0.4159127
+	speed: 0.1907s/iter; left time: 415.2147s
+Epoch: 2 cost time: 50.993048667907715
+Epoch: 2, Steps: 264 | Train Loss: 0.4186432 Vali Loss: 0.5768173 Test Loss: 0.4059841
+Validation loss decreased (0.618171 --> 0.576817).  Saving model ...
+Updating learning rate to 0.00520714674841976
+	iters: 100, epoch: 3 | loss: 0.4293500
+	speed: 0.4803s/iter; left time: 966.7659s
+	iters: 200, epoch: 3 | loss: 0.4572392
+	speed: 0.1932s/iter; left time: 369.6619s
+Epoch: 3 cost time: 51.074756145477295
+Epoch: 3, Steps: 264 | Train Loss: 0.4174696 Vali Loss: 0.5828705 Test Loss: 0.4041898
+EarlyStopping counter: 1 out of 10
+Updating learning rate to 0.00860168435286514
+	iters: 100, epoch: 4 | loss: 0.4429801
+	speed: 0.4907s/iter; left time: 858.2042s
+	iters: 200, epoch: 4 | loss: 0.4113178
+	speed: 0.1930s/iter; left time: 318.2527s
+Epoch: 4 cost time: 51.676740407943726
+Epoch: 4, Steps: 264 | Train Loss: 0.4157243 Vali Loss: 0.5657165 Test Loss: 0.3974002
+Validation loss decreased (0.576817 --> 0.565717).  Saving model ...
+Updating learning rate to 0.009999990166060773
+	iters: 100, epoch: 5 | loss: 0.4058701
+	speed: 0.4857s/iter; left time: 721.2460s
+	iters: 200, epoch: 5 | loss: 0.4233983
+	speed: 0.1882s/iter; left time: 260.5982s
+Epoch: 5 cost time: 50.550894021987915
+Epoch: 5, Steps: 264 | Train Loss: 0.4136102 Vali Loss: 0.5581388 Test Loss: 0.4021140
+Validation loss decreased (0.565717 --> 0.558139).  Saving model ...
+Updating learning rate to 0.009325162883318252
+	iters: 100, epoch: 6 | loss: 0.4063128
+	speed: 0.4966s/iter; left time: 606.3334s
+	iters: 200, epoch: 6 | loss: 0.3904267
+	speed: 0.1929s/iter; left time: 216.2246s
+Epoch: 6 cost time: 51.37274217605591
+Epoch: 6, Steps: 264 | Train Loss: 0.4104133 Vali Loss: 0.5627246 Test Loss: 0.3936434
+EarlyStopping counter: 1 out of 10
+Updating learning rate to 0.0074914170578413855
+	iters: 100, epoch: 7 | loss: 0.4018860
+	speed: 0.5032s/iter; left time: 481.5998s
+	iters: 200, epoch: 7 | loss: 0.3984050
+	speed: 0.2440s/iter; left time: 209.0658s
+Epoch: 7 cost time: 66.6597957611084
+Epoch: 7, Steps: 264 | Train Loss: 0.4088607 Vali Loss: 0.5581502 Test Loss: 0.3932222
+EarlyStopping counter: 2 out of 10
+Updating learning rate to 0.004990103402690645
+	iters: 100, epoch: 8 | loss: 0.4111432
+	speed: 0.9008s/iter; left time: 624.2290s
+	iters: 200, epoch: 8 | loss: 0.4071630
+	speed: 0.3459s/iter; left time: 205.1058s
+Epoch: 8 cost time: 92.460200548172
+Epoch: 8, Steps: 264 | Train Loss: 0.4072282 Vali Loss: 0.5621113 Test Loss: 0.3932789
+EarlyStopping counter: 3 out of 10
+Updating learning rate to 0.002491446891780612
+	iters: 100, epoch: 9 | loss: 0.3929614
+	speed: 0.8941s/iter; left time: 383.5769s
+	iters: 200, epoch: 9 | loss: 0.3821609
+	speed: 0.3458s/iter; left time: 113.7782s
+Epoch: 9 cost time: 92.06724405288696
+Epoch: 9, Steps: 264 | Train Loss: 0.4036102 Vali Loss: 0.5593382 Test Loss: 0.3919618
+EarlyStopping counter: 4 out of 10
+Updating learning rate to 0.0006649605193723938
+	iters: 100, epoch: 10 | loss: 0.3978282
+	speed: 0.8930s/iter; left time: 147.3510s
+	iters: 200, epoch: 10 | loss: 0.3733488
+	speed: 0.3461s/iter; left time: 22.4964s
+Epoch: 10 cost time: 91.9768807888031
+Epoch: 10, Steps: 264 | Train Loss: 0.4017045 Vali Loss: 0.5597144 Test Loss: 0.3910441
+EarlyStopping counter: 5 out of 10
+Updating learning rate to 4.9833939226109594e-08
+>>>>>>>testing : ETTh1_MSFCGNN2_ftETTh1_slM_pl96_96<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 2785
+mse:0.4036429226398468, mae:0.40211406350135803, rse:0.6034654974937439
+Inference time:  17.747544288635254
+Use GPU: cuda:0
+>>>>>>>start training : ETTh1_MSFCGNN2_ftETTh1_slM_pl96_96>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8449
+val 2785
+test 2785
+	iters: 100, epoch: 1 | loss: 0.4534543
+	speed: 0.3522s/iter; left time: 894.8470s

@@ -1,0 +1,26 @@
+Use GPU: cuda:0
+Traceback (most recent call last):
+  File "/home/shilin/code/MSFCG/run.py", line 124, in <module>
+    exp = Exp(args)  # set experiments
+  File "/home/shilin/code/MSFCG/exp/exp_main.py", line 24, in __init__
+    super(Exp_Main, self).__init__(args)
+  File "/home/shilin/code/MSFCG/exp/exp_basic.py", line 8, in __init__
+    self.model = self._build_model().to(self.device)
+  File "/home/shilin/code/MSFCG/exp/exp_main.py", line 32, in _build_model
+    model = model_dict[self.args.model].Model(self.args).float()
+  File "/home/shilin/code/MSFCG/models/MSFCGNN2.py", line 220, in __init__
+    self.model = nn.ModuleList([MultiScaleGraphBlock(configs) for _ in range(self.layer)])
+  File "/home/shilin/code/MSFCG/models/MSFCGNN2.py", line 220, in <listcomp>
+    self.model = nn.ModuleList([MultiScaleGraphBlock(configs) for _ in range(self.layer)])
+  File "/home/shilin/code/MSFCG/models/MSFCGNN2.py", line 151, in __init__
+    self.gconv.append(GraphBlock(configs))
+  File "/home/shilin/code/MSFCG/models/MSFCGNN2.py", line 87, in __init__
+    self.MPNN1 = GraphConvpoolMPNN_block(2*self.hidden_dim, self.hidden_dim, self.d_model,
+  File "/home/shilin/code/MSFCG/layers/MSFCGBlock2.py", line 241, in __init__
+    self.pre_relation = Mask_Matrix(d_model, moving_window, decay)    # 固定值的矩阵[14, 14]
+  File "/home/shilin/code/MSFCG/layers/MSFCGBlock2.py", line 99, in Mask_Matrix
+    Adj = torch.ones(num_nodes * scale_num, num_nodes * scale_num).cuda()
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

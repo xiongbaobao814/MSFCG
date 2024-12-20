@@ -1,0 +1,19 @@
+Use GPU: cuda:0
+>>>>>>>start training : weather_MSFCGNN2_ftweather_slM_pl96_96>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 36696
+val 5175
+test 10444
+Traceback (most recent call last):
+  File "/home/shilin/code/MSFCG/run.py", line 127, in <module>
+    exp.train(setting)
+  File "/home/shilin/code/MSFCG/exp/exp_main.py", line 137, in train
+    outputs = self.model(batch_x, batch_x_mark)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/shilin/miniconda3/envs/python310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/shilin/code/MSFCG/models/MSFCGNN1.py", line 246, in forward
+    new_x = self.seasonality_and_trend_decompose(x_enc)
+  File "/home/shilin/code/MSFCG/models/MSFCGNN1.py", line 229, in seasonality_and_trend_decompose
+    x = x[:, :, :, 0]                           # [64, 96, 7]
+IndexError: too many indices for tensor of dimension 3

@@ -1,0 +1,8 @@
+{"time":"2024-12-20T15:30:36.669329266+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-20T15:30:36.669364317+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241220_153036-gqu62lwx/logs/debug-core.log"}
+{"time":"2024-12-20T15:30:36.784771058+08:00","level":"INFO","msg":"created new stream","id":"gqu62lwx"}
+{"time":"2024-12-20T15:30:36.784890749+08:00","level":"INFO","msg":"stream: started","id":"gqu62lwx"}
+{"time":"2024-12-20T15:30:36.78492362+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"gqu62lwx"}
+{"time":"2024-12-20T15:30:36.78492833+08:00","level":"INFO","msg":"handler: started","stream_id":"gqu62lwx"}
+{"time":"2024-12-20T15:30:36.78499126+08:00","level":"INFO","msg":"sender: started","stream_id":"gqu62lwx"}
+{"time":"2024-12-20T15:30:37.298187557+08:00","level":"INFO","msg":"Starting system monitor"}

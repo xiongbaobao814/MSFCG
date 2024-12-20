@@ -1,0 +1,40 @@
+Use GPU: cuda:0
+>>>>>>>start training : ETTh2_MSFCGNN2_ftETTh2_slM_pl96_192>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8353
+val 2689
+test 2689
+	iters: 100, epoch: 1 | loss: 0.4412965
+	speed: 0.1940s/iter; left time: 132.6689s
+	iters: 200, epoch: 1 | loss: 0.4289402
+	speed: 0.1814s/iter; left time: 105.9117s
+Epoch: 1 cost time: 47.845176696777344
+Epoch: 1, Steps: 261 | Train Loss: 0.4130084 Vali Loss: 0.3813278 Test Loss: 0.3984091
+Validation loss decreased (inf --> 0.381328).  Saving model ...
+Updating learning rate to 0.009376901061748624
+	iters: 100, epoch: 2 | loss: 0.3198475
+	speed: 0.4539s/iter; left time: 192.0127s
+	iters: 200, epoch: 2 | loss: 0.4245173
+	speed: 0.1784s/iter; left time: 57.6101s
+Epoch: 2 cost time: 46.880595684051514
+Epoch: 2, Steps: 261 | Train Loss: 0.3938071 Vali Loss: 0.3789799 Test Loss: 0.3940392
+Validation loss decreased (0.381328 --> 0.378980).  Saving model ...
+Updating learning rate to 0.005835310912992453
+	iters: 100, epoch: 3 | loss: 0.4859104
+	speed: 0.4515s/iter; left time: 73.1502s
+	iters: 200, epoch: 3 | loss: 0.4329925
+	speed: 0.1805s/iter; left time: 11.1913s
+Epoch: 3 cost time: 47.5857093334198
+Epoch: 3, Steps: 261 | Train Loss: 0.3805873 Vali Loss: 0.3692368 Test Loss: 0.3927977
+Validation loss decreased (0.378980 --> 0.369237).  Saving model ...
+Updating learning rate to 1.5179190931918991e-07
+>>>>>>>testing : ETTh2_MSFCGNN2_ftETTh2_slM_pl96_192<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 2689
+mse:0.37990811467170715, mae:0.39279770851135254, rse:0.4942433536052704
+Inference time:  9.043769121170044
+Use GPU: cuda:0
+>>>>>>>start training : ETTh2_MSFCGNN2_ftETTh2_slM_pl96_192>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8353
+val 2689
+test 2689
+	iters: 100, epoch: 1 | loss: 0.3749253
+	speed: 0.1864s/iter; left time: 127.4733s

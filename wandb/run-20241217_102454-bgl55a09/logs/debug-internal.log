@@ -1,0 +1,16 @@
+{"time":"2024-12-17T10:24:54.61269278+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-17T10:24:54.61271783+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241217_102454-bgl55a09/logs/debug-core.log"}
+{"time":"2024-12-17T10:24:54.727492646+08:00","level":"INFO","msg":"created new stream","id":"bgl55a09"}
+{"time":"2024-12-17T10:24:54.727525657+08:00","level":"INFO","msg":"stream: started","id":"bgl55a09"}
+{"time":"2024-12-17T10:24:54.727551388+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"bgl55a09"}
+{"time":"2024-12-17T10:24:54.727568578+08:00","level":"INFO","msg":"handler: started","stream_id":"bgl55a09"}
+{"time":"2024-12-17T10:24:54.727624029+08:00","level":"INFO","msg":"sender: started","stream_id":"bgl55a09"}
+{"time":"2024-12-17T10:24:55.221961304+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-17T10:41:40.835396689+08:00","level":"INFO","msg":"stream: closing","id":"bgl55a09"}
+{"time":"2024-12-17T10:41:40.8354677+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-17T10:41:40.836421236+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-17T10:41:42.180225454+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-17T10:41:42.540460398+08:00","level":"INFO","msg":"handler: closed","stream_id":"bgl55a09"}
+{"time":"2024-12-17T10:41:42.540511339+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bgl55a09"}
+{"time":"2024-12-17T10:41:42.540524919+08:00","level":"INFO","msg":"sender: closed","stream_id":"bgl55a09"}
+{"time":"2024-12-17T10:41:42.540607231+08:00","level":"INFO","msg":"stream: closed","id":"bgl55a09"}

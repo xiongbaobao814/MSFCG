@@ -1,0 +1,8 @@
+{"time":"2024-12-20T16:11:26.495269968+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-20T16:11:26.495297348+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241220_161126-cypwpszd/logs/debug-core.log"}
+{"time":"2024-12-20T16:11:26.611382818+08:00","level":"INFO","msg":"created new stream","id":"cypwpszd"}
+{"time":"2024-12-20T16:11:26.611440128+08:00","level":"INFO","msg":"stream: started","id":"cypwpszd"}
+{"time":"2024-12-20T16:11:26.611473278+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"cypwpszd"}
+{"time":"2024-12-20T16:11:26.611493248+08:00","level":"INFO","msg":"handler: started","stream_id":"cypwpszd"}
+{"time":"2024-12-20T16:11:26.611567649+08:00","level":"INFO","msg":"sender: started","stream_id":"cypwpszd"}
+{"time":"2024-12-20T16:11:27.110135503+08:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,8 @@
+{"time":"2024-12-18T22:07:26.402146624+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-18T22:07:26.402180483+08:00","level":"INFO","msg":"created symlink","path":"/home/shilin/code/MSFCG/wandb/run-20241218_220726-6jcet0l0/logs/debug-core.log"}
+{"time":"2024-12-18T22:07:26.518060759+08:00","level":"INFO","msg":"created new stream","id":"6jcet0l0"}
+{"time":"2024-12-18T22:07:26.518109718+08:00","level":"INFO","msg":"stream: started","id":"6jcet0l0"}
+{"time":"2024-12-18T22:07:26.518152697+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"6jcet0l0"}
+{"time":"2024-12-18T22:07:26.518171396+08:00","level":"INFO","msg":"sender: started","stream_id":"6jcet0l0"}
+{"time":"2024-12-18T22:07:26.518282983+08:00","level":"INFO","msg":"handler: started","stream_id":"6jcet0l0"}
+{"time":"2024-12-18T22:07:26.973503691+08:00","level":"INFO","msg":"Starting system monitor"}
